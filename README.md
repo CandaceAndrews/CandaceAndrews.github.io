@@ -1,2 +1,3 @@
-# CandaceAndrews.github.io
-Portfolio Website using Vue.js
+# Portfolio Website
+[CandaceAndrews.github.io](CandaceAndrews.github.io)
+
