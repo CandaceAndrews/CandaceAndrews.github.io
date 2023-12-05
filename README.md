@@ -1,5 +1,4 @@
 # Portfolio Website
----
 
 ## Project setup
 ```
