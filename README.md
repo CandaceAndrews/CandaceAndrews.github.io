@@ -1,3 +1,3 @@
 # Portfolio Website
-[CandaceAndrews.github.io](CandaceAndrews.github.io)
+[CandaceAndrews.github.io](https://candaceandrews.github.io/)
 
