@@ -13,11 +13,20 @@ export default {
 </script>
 
 <style>
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   background-color: #333;
   padding: 10px;
   display: flex;
   justify-content: space-around;
+  position: fixed;
+  top: 0; /* Stick to the top of the screen */
+  width: 100%;
+  z-index: 1000; /* Ensure it appears above other elements */
 }
 
 .nav-link {
