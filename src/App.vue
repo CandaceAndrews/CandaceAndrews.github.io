@@ -24,5 +24,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-image: url('./assets/background.png');
+  background-size: cover;
 }
 </style>
