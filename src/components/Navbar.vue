@@ -1,16 +1,16 @@
 <template>
-    <div class="navbar">
-        <router-link to="/" class="nav-link">Home</router-link>
-        <router-link to="/about" class="nav-link">About</router-link>
-        <router-link to="/projects" class="nav-link">Projects</router-link>
-        <router-link to="/contact" class="nav-link">Contact</router-link>
-    </div>
+  <div class="navbar">
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
+    <router-link to="/projects">Projects</router-link>
+    <router-link to="/contact">Contact</router-link>
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'Navbar',
-}
+  name: 'Navbar',
+};
 </script>
 
 <style>
@@ -41,5 +41,11 @@ body, html {
     background-color: #555;
     color: #fff; /* Change text color on hover */
   }
+
+/* .router-link-exact-active {
+  // Add styling for the active link if needed
+  // This class is automatically applied to the active link by Vue Router
+} */
+
 }
 </style>
