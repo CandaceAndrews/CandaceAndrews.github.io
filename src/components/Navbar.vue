@@ -1,9 +1,8 @@
 <template>
   <div class="navbar">
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
-    <router-link to="/projects">Projects</router-link>
-    <router-link to="/contact">Contact</router-link>
+    <router-link to="/" class="nav-link" exact>About</router-link>
+    <router-link to="/projects" class="nav-link" exact>Projects</router-link>
+    <router-link to="/contact" class="nav-link" exact>Contact</router-link>
   </div>
 </template>
 
@@ -35,17 +34,18 @@ body, html {
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s; /* Add color transition */
+  transition: background-color 0.3s, color 0.3s;
+}
 
-  &:hover {
-    background-color: #555;
-    color: #fff; /* Change text color on hover */
-  }
+.nav-link:hover,
+.router-link-exact-active {
+  background-color: #555;
+  color: #fff;
+}
 
 /* .router-link-exact-active {
   // Add styling for the active link if needed
   // This class is automatically applied to the active link by Vue Router
 } */
 
-}
 </style>
