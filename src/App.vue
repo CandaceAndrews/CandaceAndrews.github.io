@@ -23,8 +23,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 35px;
-  background-image: url('./assets/background.png');
-  background-size: cover;
+  margin-top: 70px;
 }
 </style>
