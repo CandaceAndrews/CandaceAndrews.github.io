@@ -1,7 +1,7 @@
 <template>
     <div class="about-page-container">
       <div>
-        <img src="/assets/profile_picture.png" alt="Profile picture of me, I have red hair and sitting in a field.">
+        <img src="@/assets/profilePicture.png" alt="Profile picture of me, I have red hair and sitting in a field.">
       </div>
       <div class="name-and-title">
         <h1 class="my-name">Candace Andrews</h1>
