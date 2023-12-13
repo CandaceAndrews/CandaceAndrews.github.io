@@ -1,9 +1,7 @@
 <template>
     <div class="about-page-container">
-      <div>
+      <div class="pic-name-title">
         <img class="profile-picture" src="@/assets/profilePicture.png" alt="Profile picture of me, I have red hair and sitting in a field.">
-      </div>
-      <div class="name-and-title">
         <h1 class="my-name">Candace Andrews</h1>
         <p class="subtitle">Software Engineer & Digital Artist</p>
       </div>
@@ -29,9 +27,24 @@
   </script>
   
   <style scoped>
+.about-page-container {
+  margin: 100px 0px 0px 0px;
+}
+
+.pic-name-title {
+  margin: 0px 0px 0px 0px;
+}
+
+.profile-picture {
+    border-radius: 50%; 
+    width: 20%;
+    height: auto;
+    border: 5px rgb(37, 40, 38);
+  }
+
   .my-name {
     font-size: 2.5em; 
-    margin-bottom: 2px;
+    margin: 0px 10px 0px 2px;
   }
   
   .subtitle {
@@ -40,10 +53,5 @@
     margin-top: 2px;
   }
   
-  .profile-picture {
-    border-radius: 50%; 
-    width: 20%;
-    height: auto;
-  }
   </style>
   
