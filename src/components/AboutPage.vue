@@ -37,9 +37,9 @@
 
 .profile-picture {
     border-radius: 50%; 
-    width: 20%;
+    width: 17%;
     height: auto;
-    border: 5px rgb(37, 40, 38);
+    border: 3px solid rgb(78, 77, 78);
   }
 
   .my-name {
@@ -51,6 +51,10 @@
     font-size: 1.2em;
     color: #555;
     margin-top: 2px;
+  }
+
+  .bio {
+    margin: 0px 100px 0px 100px;
   }
   
   </style>
