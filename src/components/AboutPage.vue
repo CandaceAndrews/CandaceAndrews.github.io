@@ -28,11 +28,12 @@
   
   <style scoped>
 .about-page-container {
-  margin: 100px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
 }
 
 .pic-name-title {
-  margin: 0px 0px 0px 0px;
+  background-color: pink;
+  padding: 20px;
 }
 
 .profile-picture {

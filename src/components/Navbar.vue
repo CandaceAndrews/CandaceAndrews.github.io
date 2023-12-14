@@ -19,7 +19,7 @@ body, html {
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #333333;
   padding: 10px;
   display: flex;
   justify-content: space-around;
