@@ -10,11 +10,12 @@
           Welcome to my portfolio!
         </p>
         <p class="bio">
-          My name is Candace Andrews and I'm a junior software engineer with a
-          background in digital art and design. I am able to offer a distinctive
-          combination of both technical expertise and artistic insight. My journey
-          into programming was sparked by a passion for video games, and I have since
-          honed my skills in Python, Django, and JavaScript.
+          I'm a junior software engineer with a background in digital art and design, 
+          bringing a unique blend of technical expertise and artistic insight to the table. 
+          My journey into programming began when I started crafting small games using platforms 
+          like Ren’py and experimenting with modding in video games. I found that I enjoyed coding 
+          and made the decision to transition into a career in software engineering. Dedicated to 
+          continuous growth, I have honed my skills in Python, Django, and JavaScript.
         </p>
       </div>
     </div>
@@ -56,6 +57,7 @@
 
   .bio {
     margin: 0px 100px 0px 100px;
+    line-height: 1.5; 
   }
   
   </style>

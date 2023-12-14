@@ -12,6 +12,8 @@
   </script>
   
   <style scoped>
-  /* Your component styles go here */
+ h1 {
+    margin-top: 52px;
+}
   </style>
   
