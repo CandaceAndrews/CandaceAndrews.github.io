@@ -1,5 +1,5 @@
 <template>
-    <div id="about-section" class="about-page-container">
+    <div class="about-page">
       <div class="profile-section">
         <div class="pic-name-title">
           <img class="profile-picture" src="@/assets/profilePicture.png" alt="Profile picture of me, I have red hair and sitting in a field.">
@@ -41,7 +41,7 @@
   </script>
   
   <style scoped>
-.about-page-container {
+.about-page {
   margin: 50px 0px 0px 0px;
 }
 
