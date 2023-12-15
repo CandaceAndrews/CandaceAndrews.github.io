@@ -1,5 +1,5 @@
 <template>
-    <div class="about-page-container">
+    <div id="about-section" class="about-page-container">
       <div class="pic-name-title">
         <img class="profile-picture" src="@/assets/profilePicture.png" alt="Profile picture of me, I have red hair and sitting in a field.">
         <h1 class="my-name">Candace Andrews</h1>
@@ -34,30 +34,36 @@
 
 .pic-name-title {
   background-color: pink;
-  padding: 20px;
+  padding: 10px;
+  width: 100%;
+  height: auto;
 }
 
 .profile-picture {
     border-radius: 50%; 
-    width: 17%;
+    width: 13%;
     height: auto;
     border: 3px solid rgb(78, 77, 78);
   }
 
   .my-name {
-    font-size: 2.5em; 
+    font-size: 2.2em; 
     margin: 0px 10px 0px 2px;
   }
   
   .subtitle {
     font-size: 1.2em;
     color: #555;
-    margin-top: 2px;
+    margin: 2px 0px 0px 0px;
   }
 
   .bio {
     margin: 0px 100px 0px 100px;
     line-height: 1.5; 
+  }
+
+  .about-content {
+    margin: 10px 0px 10px 0px;
   }
   
   </style>

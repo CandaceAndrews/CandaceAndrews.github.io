@@ -1,14 +1,22 @@
 <template>
   <div class="navbar">
-    <router-link to="/" class="nav-link" exact>About</router-link>
-    <router-link to="/projects" class="nav-link" exact>Projects</router-link>
-    <router-link to="/contact" class="nav-link" exact>Contact</router-link>
+    <router-link to="#about-section" class="nav-link" exact @click="scrollToSection('about-section')">About</router-link>
+    <router-link to="#projects-section" class="nav-link" exact @click="scrollToSection('projects-section')">Projects</router-link>
+    <router-link to="#contact-section" class="nav-link" exact @click="scrollToSection('contact-section')">Contact</router-link>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Navbar',
+  methods: {
+    scrollToSection(sectionId) {
+      const targetElement = document.getElementById(sectionId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' })
+      }
+    },
+  }
 };
 </script>
 
