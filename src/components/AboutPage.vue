@@ -42,10 +42,7 @@
   
   <style scoped>
 .about-page-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 50px 20px;
-  /* margin: 50px 0px 0px 0px; */
+  margin: 50px 0px 0px 0px;
 }
 
 .pic-name-title {
@@ -79,22 +76,22 @@
 }
 
 .about-content {
-  margin: 10px 0px 10px 0px;
+  margin: 35px 0px 10px 0px;
 }
   
 .skills-section {
-  width: 30%;
-}
-
-.skill {
-  display: flex;
   align-items: center;
   margin-bottom: 8px;
 }
 
+.skill {
+  /* align-items: center; */
+
+}
+
 .skill img {
-  width: 24px;
-  height: 24px;
+  width: 50px;
+  height: 50px;
   margin-right:8px;
 }
   </style>
