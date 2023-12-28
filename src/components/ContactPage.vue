@@ -1,7 +1,7 @@
 <template>
     <div class="contact-page">
-      <h1>Contact Page</h1>
-      <form @submit.prevent="submitForm">
+      <h1>✉️  Contact</h1>
+      <form @submit.prevent="submitForm" class="contact-form">
         <div class="form-group">
           <label for="name">Name:</label>
           <input type="text" id="name" v-model="formData.name" required>
@@ -14,7 +14,7 @@
 
         <div class="form-group">
           <label for="message">Message:</label>
-          <textarea id="message" v-model="formData.message" required></textarea>
+          <textarea id="message" v-model="formData.message" rows="12" required></textarea>
         </div>
 
         <button type="submit">Submit</button>
@@ -57,10 +57,13 @@
 .contact-form {
   display: flex;
   flex-direction: column;
+  background-color: rgb(252, 218, 224); 
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .form-group {
-  margin-bottom: 20px;
+  margin-bottom: 17px;
 }
 
 h1 {
@@ -83,13 +86,15 @@ textarea {
 }
 
 button {
-  background-color: #007BFF;
+  background-color: #5f907b;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  width: 40%;
+  margin: 0 auto
 }
 
   </style>
