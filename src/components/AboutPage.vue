@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="skills-section">
-        <h2>🔨 Skills</h2>
+        <h2>🛠️ Skills</h2>
         <div class="skill">
           <img src="@/assets/icons/python.png" alt="Python logo icon">
           <img src="@/assets/icons/django.png" alt="Django logo icon">
@@ -32,7 +32,7 @@
         </div>
       </div>
     </div>
-  </template>
+</template>
   
   <script>
   export default {
@@ -86,7 +86,6 @@
 
 .skill {
   /* align-items: center; */
-
 }
 
 .skill img {
