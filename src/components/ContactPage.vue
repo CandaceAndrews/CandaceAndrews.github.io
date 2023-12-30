@@ -1,6 +1,7 @@
 <template>
     <div class="contact-page">
       <h1>✉️  Contact</h1>
+      <p class="email-subtitle">CandaceAmberAndrews@gmail.com</p>
       <form @submit.prevent="submitForm" class="contact-form">
         <div class="form-group">
           <label for="name">Name:</label>
@@ -71,8 +72,7 @@
 
 .form-group label {
   font-weight: bold;
-  margin-bottom: 5px;
-  margin-right: 5px;
+  margin: 10px 5px 2px 0px;
 }
 
 .form-group input,

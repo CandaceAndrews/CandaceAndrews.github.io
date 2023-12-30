@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="skills-section">
-        <h2>🛠️ Skills</h2>
+        <h2 class="skills-header">🛠️ Skills</h2>
         <div class="skill">
           <img src="@/assets/icons/python.png" alt="Python logo icon">
           <img src="@/assets/icons/django.png" alt="Django logo icon">
@@ -50,6 +50,7 @@
   padding: 10px;
   width: 100%;
   height: auto;
+  border-bottom: 2px solid rgb(202, 150, 160);
 }
 
 .profile-picture {
@@ -72,7 +73,7 @@
 
 .bio {
   margin: 0px 100px 0px 100px;
-  line-height: 1.5; 
+  line-height: 1.5;
 }
 
 .about-content {
@@ -81,13 +82,12 @@
   
 .skills-section {
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
-.skill {
-  /* align-items: center; */
+.skills-header {
+  margin: 30px 0px 15px 0px;
 }
-
 .skill img {
   width: 50px;
   height: 50px;
