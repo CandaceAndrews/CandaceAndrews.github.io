@@ -12,7 +12,7 @@
           <input type="email" id="email" v-model="formData.email" required>
         </div>
 
-        <div class="form-group">
+        <div class="form-group message">
           <label for="message">Message:</label>
           <textarea id="message" v-model="formData.message" rows="12" required></textarea>
         </div>
@@ -63,7 +63,31 @@
 }
 
 .form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-bottom: 17px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.form-group.message {
+  flex-direction: column;
+  margin-top: 15px;
 }
 
 h1 {
@@ -72,7 +96,7 @@ h1 {
 
 label {
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 input,
@@ -94,8 +118,7 @@ button {
   cursor: pointer;
   font-size: 16px;
   width: 40%;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
-  </style>
-  
+</style>
