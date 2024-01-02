@@ -2,16 +2,19 @@
   <div id="app">
     <Navbar />
     <router-view />
+    <SocialIcons />
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue'
+import SocialIcons from './components/SocialIcons.vue';
 
 export default {
   name: 'App',
   components: {
     Navbar,
+    SocialIcons,
   }
 }
 </script>
