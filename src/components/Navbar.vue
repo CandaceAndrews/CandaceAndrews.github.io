@@ -20,7 +20,8 @@ body, html {
 }
 
 .navbar {
-  background-color: #333333;
+  /* background-color: #333333; */
+  background-color: rgb(106, 80, 84);
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -40,7 +41,8 @@ body, html {
 
 .nav-link:hover,
 .router-link-exact-active {
-  background-color: #555;
+  /* background-color: #555; */
+  background-color: rgb(146, 110, 115);
   color: #fff;
 }
 

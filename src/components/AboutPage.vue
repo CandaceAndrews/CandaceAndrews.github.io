@@ -7,17 +7,40 @@
           <p class="subtitle">Software Engineer & Digital Artist</p>
         </div>
         <div class="about-content">
-          <p class="bio-title">
+          <p class="welcome">
             Welcome to my portfolio!
           </p>
-          <p class="bio">
-            I'm a junior software engineer with a background in digital art and design, 
-            bringing a unique blend of technical expertise and artistic insight to the table. 
-            My journey into programming began when I started crafting small games using platforms 
-            like Ren’py and experimenting with modding in video games. I found that I enjoyed coding 
-            and made the decision to transition into a career in software engineering. Dedicated to 
-            continuous growth, I have honed my skills in Python, Django, and JavaScript.
-          </p>
+          <div class="bio">
+          <div class="bio-section">
+            <h2 class="bio-title">🚀 Journey into Programming</h2>
+            <p>
+              My venture into the dynamic realm of programming was ignited by an enduring love for video games. 
+              This passion propelled me into the exciting intersection of technology and creativity, where I discovered my knack for crafting immersive digital experiences.
+            </p>
+          </div>
+          <div class="bio-section">
+            <h2 class="bio-title">💡 Technical Expertise</h2>
+            <ul class="skills-list">
+              <li>Python</li>
+              <li>Django</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="bio-section">
+            <h2 class="bio-title">🎨 Artistic Insight</h2>
+            <p>
+              With a background in digital art and design, I infuse a unique artistic perspective into my projects. 
+              This enables me to create not just functional applications but captivating and visually engaging experiences that leave a lasting impression.
+            </p>
+          </div>
+          <div class="bio-section">
+            <h2 class="bio-title">🌐 Philosophy</h2>
+            <blockquote>
+              I believe in the power of technology to inspire, entertain, and solve real-world problems. 
+              Every line of code and stroke of design is a step towards creating a meaningful impact in the digital landscape.
+            </blockquote>
+          </div>
+        </div>
         </div>
       </div>
       <div class="skills-section">
@@ -34,13 +57,13 @@
     </div>
 </template>
   
-  <script>
-  export default {
-    name: 'AboutPage',
-  };
-  </script>
+<script>
+export default {
+  name: 'AboutPage',
+};
+</script>
   
-  <style scoped>
+<style scoped>
 .about-page {
   margin: 50px 0px 0px 0px;
 }
@@ -76,6 +99,28 @@
   line-height: 1.5;
 }
 
+.bio-section {
+  margin-bottom: 20px;
+}
+
+.bio-title {
+  font-size: 1.5em;
+  color: #ca969a; /* Pink color for section titles */
+  margin-bottom: 7px;
+}
+
+.skills-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #ca969a; /* Pink border for quotes */
+  padding-left: 15px;
+  margin: 10px 0;
+  background-color: #ececec;
+}
 .about-content {
   margin: 35px 0px 10px 0px;
 }
@@ -93,5 +138,5 @@
   height: 50px;
   margin-right:8px;
 }
-  </style>
-  
+
+</style>
