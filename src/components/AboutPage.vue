@@ -10,20 +10,25 @@
           <p class="welcome">
             Welcome to my portfolio!
           </p>
+          <p class="about-me">
+            I'm a junior software engineer with a background in digital art and design, 
+            bringing a unique blend of technical expertise and artistic insight to the table. 
+          </p>
           <div class="bio">
           <div class="bio-section">
             <h2 class="bio-title">🚀 Journey into Programming</h2>
             <p>
-              My venture into the dynamic realm of programming was ignited by an enduring love for video games. 
-              This passion propelled me into the exciting intersection of technology and creativity, where I discovered my knack for crafting immersive digital experiences.
+              My journey into programming began when I started crafting small games using platforms 
+            like Ren’py and experimenting with modding in video games. I found that I enjoyed coding 
+            and made the decision to transition into a career in software engineering.
             </p>
           </div>
           <div class="bio-section">
             <h2 class="bio-title">💡 Technical Expertise</h2>
             <ul class="skills-list">
-              <li>Python</li>
-              <li>Django</li>
-              <li>JavaScript</li>
+              <li>- Python</li>
+              <li>- Django</li>
+              <li>- JavaScript</li>
             </ul>
           </div>
           <div class="bio-section">
@@ -107,11 +112,16 @@ export default {
   font-size: 1.5em;
   color: #ca969a; /* Pink color for section titles */
   margin-bottom: 7px;
+  padding-top: 20px;
 }
 
 .skills-list {
-  list-style-type: disc;
-  margin-left: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  margin-bottom: 8px;
 }
 
 blockquote {
@@ -119,7 +129,7 @@ blockquote {
   border-left: 4px solid #ca969a; /* Pink border for quotes */
   padding-left: 15px;
   margin: 10px 0;
-  background-color: #ececec;
+  background-color: #f4f4f4;
 }
 .about-content {
   margin: 35px 0px 10px 0px;
@@ -130,6 +140,10 @@ blockquote {
   margin-bottom: 10px;
 }
 
+.about-me {
+  margin: 0px 100px 0px 100px;
+
+}
 .skills-header {
   margin: 30px 0px 15px 0px;
 }
@@ -137,6 +151,10 @@ blockquote {
   width: 50px;
   height: 50px;
   margin-right:8px;
+}
+
+p {
+  margin-top: 0px;
 }
 
 </style>
