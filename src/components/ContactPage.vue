@@ -87,7 +87,7 @@
 
 .form-group.message {
   flex-direction: column;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 h1 {
