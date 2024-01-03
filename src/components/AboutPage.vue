@@ -81,11 +81,13 @@ export default {
 }
 
 .pic-name-title {
-  background-color: pink;
+  /* background-color: pink; */
+  background-color: #a3c1b0;
   padding: 10px;
   width: 100%;
   height: auto;
-  border-bottom: 2px solid rgb(202, 150, 160);
+  /* border-bottom: 2px solid rgb(202, 150, 160); */
+  border-bottom:2px solid rgb(87, 105, 97);
 }
 
 .profile-picture {
@@ -113,6 +115,8 @@ export default {
 
 .bio-section {
   margin-bottom: 20px;
+  background-color: #e1f1e7;
+  padding: 0px 12px 10px 12px;
 }
 
 .bio-title {
@@ -136,7 +140,7 @@ blockquote {
   border-left: 4px solid #ca969a; /* Pink border for quotes */
   padding-left: 15px;
   margin: 10px 0;
-  background-color: #f4f4f4;
+  background-color: #e2e9e6;
 }
 .about-content {
   margin: 35px 0px 10px 0px;

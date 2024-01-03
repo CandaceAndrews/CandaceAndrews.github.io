@@ -21,12 +21,13 @@ body, html {
 
 .navbar {
   /* background-color: #333333; */
-  background-color: rgb(106, 80, 84);
+  /* background-color: rgb(81, 66, 68); */
+  background-color: rgb(66, 81, 74);
   padding: 10px;
   display: flex;
   justify-content: space-around;
   position: fixed;
-  top: 0; /* Stick to the top of the screen */
+  top: 0; 
   width: 100%;
   z-index: 1000; /* Ensure it appears above other elements */
 }
@@ -42,13 +43,8 @@ body, html {
 .nav-link:hover,
 .router-link-exact-active {
   /* background-color: #555; */
-  background-color: rgb(146, 110, 115);
+  background-color: rgb(97, 126, 113);
   color: #fff;
 }
-
-/* .router-link-exact-active {
-  // Add styling for the active link if needed
-  // This class is automatically applied to the active link by Vue Router
-} */
 
 </style>
