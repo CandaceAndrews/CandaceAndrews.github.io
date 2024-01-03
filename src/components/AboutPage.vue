@@ -39,6 +39,13 @@
             </p>
           </div>
           <div class="bio-section">
+            <h2 class="bio-title">🔎 Roles Currently Seeking</h2>
+            <p>
+              I would prefer a backend focused role that uses Django or any role involving Python.
+              Would also love any role that would allow me to explore my creative side!
+            </p>
+          </div>
+          <div class="bio-section">
             <h2 class="bio-title">🌐 Philosophy</h2>
             <blockquote>
               I believe in the power of technology to inspire, entertain, and solve real-world problems. 
@@ -145,7 +152,7 @@ blockquote {
 
 }
 .skills-header {
-  margin: 30px 0px 15px 0px;
+  margin: 40px 0px 15px 0px;
 }
 .skill img {
   width: 50px;
