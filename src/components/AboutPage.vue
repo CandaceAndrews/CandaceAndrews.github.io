@@ -116,12 +116,13 @@ export default {
 .bio-section {
   margin-bottom: 20px;
   background-color: #e1f1e7;
-  padding: 0px 12px 10px 12px;
+  padding: 0px 15px 10px 15px;
 }
 
 .bio-title {
   font-size: 1.5em;
-  color: #ca969a; /* Pink color for section titles */
+  color: #ca969a;
+  color: #b88085;
   margin-bottom: 7px;
   padding-top: 20px;
 }
