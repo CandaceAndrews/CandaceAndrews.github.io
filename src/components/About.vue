@@ -15,44 +15,44 @@
             bringing a unique blend of technical expertise and artistic insight to the table. 
           </p>
           <div class="bio">
-          <div class="bio-section">
-            <h2 class="bio-title">🚀 Journey into Programming</h2>
-            <p>
-              My journey into programming began when I started crafting small games using platforms 
-            like Ren’py and experimenting with modding in video games. I found that I enjoyed coding 
-            and made the decision to transition into a career in software engineering.
-            </p>
+            <div class="bio-section">
+              <h2 class="bio-title">🚀 Journey into Programming</h2>
+              <p>
+                My journey into programming began when I started crafting small games using platforms 
+              like Ren’py and experimenting with modding in video games. I found that I enjoyed coding 
+              and made the decision to transition into a career in software engineering.
+              </p>
+            </div>
+            <div class="bio-section">
+              <h2 class="bio-title">💡 Technical Expertise</h2>
+              <ul class="skills-list">
+                <li>- Python</li>
+                <li>- Django</li>
+                <li>- JavaScript</li>
+              </ul>
+            </div>
+            <div class="bio-section">
+              <h2 class="bio-title">🎨 Artistic Insight</h2>
+              <p>
+                With a background in digital art and design, I infuse a unique artistic perspective into my projects. 
+                This enables me to create not just functional applications but captivating and visually engaging experiences that leave a lasting impression.
+              </p>
+            </div>
+            <div class="bio-section">
+              <h2 class="bio-title">🔎 Roles Currently Seeking</h2>
+              <p>
+                I would prefer a backend focused role that uses Django or any role involving Python.
+                Would also love any role that would allow me to explore my creative side!
+              </p>
+            </div>
+            <div class="bio-section">
+              <h2 class="bio-title">🌐 Philosophy</h2>
+              <blockquote>
+                I believe in the power of technology to inspire, entertain, and solve real-world problems. 
+                Every line of code and stroke of design is a step towards creating a meaningful impact in the digital landscape.
+              </blockquote>
+            </div>
           </div>
-          <div class="bio-section">
-            <h2 class="bio-title">💡 Technical Expertise</h2>
-            <ul class="skills-list">
-              <li>- Python</li>
-              <li>- Django</li>
-              <li>- JavaScript</li>
-            </ul>
-          </div>
-          <div class="bio-section">
-            <h2 class="bio-title">🎨 Artistic Insight</h2>
-            <p>
-              With a background in digital art and design, I infuse a unique artistic perspective into my projects. 
-              This enables me to create not just functional applications but captivating and visually engaging experiences that leave a lasting impression.
-            </p>
-          </div>
-          <div class="bio-section">
-            <h2 class="bio-title">🔎 Roles Currently Seeking</h2>
-            <p>
-              I would prefer a backend focused role that uses Django or any role involving Python.
-              Would also love any role that would allow me to explore my creative side!
-            </p>
-          </div>
-          <div class="bio-section">
-            <h2 class="bio-title">🌐 Philosophy</h2>
-            <blockquote>
-              I believe in the power of technology to inspire, entertain, and solve real-world problems. 
-              Every line of code and stroke of design is a step towards creating a meaningful impact in the digital landscape.
-            </blockquote>
-          </div>
-        </div>
         </div>
       </div>
       <div class="skills-section">
@@ -71,7 +71,7 @@
   
 <script>
 export default {
-  name: 'AboutPage',
+  name: 'About',
 };
 </script>
   
@@ -81,12 +81,10 @@ export default {
 }
 
 .pic-name-title {
-  /* background-color: pink; */
   background-color: #a3c1b0;
   padding: 10px;
   width: 100%;
   height: auto;
-  /* border-bottom: 2px solid rgb(202, 150, 160); */
   border-bottom:2px solid rgb(87, 105, 97);
 }
 
@@ -138,7 +136,7 @@ export default {
 
 blockquote {
   font-style: italic;
-  border-left: 4px solid #ca969a; /* Pink border for quotes */
+  border-left: 4px solid #ca969a; /* Pink border for quote */
   padding-left: 15px;
   margin: 10px 0;
   background-color: #e2e9e6;
@@ -168,5 +166,4 @@ blockquote {
 p {
   margin-top: 0px;
 }
-
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="project-detail">
-      <h2>{{ project.projectName }}</h2>
+      <h2>{{ project.projectname }}</h2>
       <p>{{ project.description }}</p>
     </div>
   </template>
