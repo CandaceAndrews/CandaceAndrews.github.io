@@ -1,6 +1,6 @@
 <template>
     <div class="projects">
-        <h1>Projects</h1>
+        <h1>📊 Projects</h1>
         <div class="projects-grid">
             <ProjectThumbnail v-for="project in projects" :key="project.id" :project="project" />
         </div>
