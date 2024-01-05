@@ -5,6 +5,7 @@
           <img class="profile-picture" src="@/assets/profilePicture.png" alt="Profile picture of me, I have red hair and sitting in a field.">
           <h1 class="my-name">Candace Andrews</h1>
           <p class="subtitle">Software Engineer & Digital Artist</p>
+          <img class="overlay-image" src="@/assets/bg_placeholder.png" alt="Overlay image">
         </div>
         <div class="about-content">
           <p class="welcome">
@@ -78,16 +79,36 @@ export default {
 <style scoped>
 .about-page {
   margin: 50px 0px 0px 0px;
+  position: relative; /* Make the parent container relative for absolute positioning */
 }
 
-.pic-name-title {
+.overlay-image {
+  position: absolute;
+  top: 0%; /* Adjust the top position as needed */
+  left: 0;
+  width: 45%; /* Adjust the width as needed */
+  height: auto;
+  z-index: 2; /* Set a higher z-index than the profile picture */
+  opacity: 0.7;
+}
+
+
+/* .pic-name-title {
   background-color: #a3c1b0;
   padding: 10px;
   width: 100%;
   height: auto;
   border-bottom:2px solid rgb(87, 105, 97);
-}
+} */
 
+.pic-name-title {
+  background-color: rgba(163, 193, 176, 0.8); /* Use rgba with alpha for transparency */
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid rgb(87, 105, 97);
+  position: relative; /* Ensure the relative positioning for the child elements */
+}
 .profile-picture {
     border-radius: 50%; 
     width: 13%;

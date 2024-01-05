@@ -6,7 +6,7 @@
         </a>
         <!-- Github -->
         <a href="https:www.github.com/CandaceAndrews" target="_blank">
-            <img src="@/assets/icons/icons8-github.gif" alt="Github" class="socicon" />
+            <img src="@/assets/icons/github.gif" alt="Github" class="socicon" />
         </a>
     </div>
 </template>
@@ -27,7 +27,7 @@ export default {
 }
 
 .socicon {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
 }
 </style>

@@ -23,13 +23,18 @@ export default {
     cursor: pointer;
     text-align: center;
     margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .thumbnail-image {
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
     border: 1px solid #ddd;
     border-radius: 8px;
+}
+
+.project-thumbnail:hover {
+    transform: scale(1.1);
 }
 
 h3 {
