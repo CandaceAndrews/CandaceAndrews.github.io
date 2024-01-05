@@ -1,7 +1,7 @@
 <template>
     <div class="project-thumbnail" @click="navigateToProject">
-        <img class="thumbnail-image" :src="project.thumbnailSrc" :alt="project.projectname">
-        <h3>{{ project.projectname }}</h3>
+        <img class="thumbnail-image" :src="project.thumbnailSource" :alt="project.projectName">
+        <h3>{{ project.projectName }}</h3>
     </div>
 </template>
 

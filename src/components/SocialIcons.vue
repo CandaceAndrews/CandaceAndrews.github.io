@@ -2,7 +2,7 @@
     <div class="socials">
         <!-- LinkedIn -->
         <a href="https://www.linkedin.com/in/candace-andrews/" target="_blank">
-            <img src="@/assets/icons/icons8-linkedin-circled.gif" alt="LinkedIn" loading="lazy" class="socicon" />
+            <img src="@/assets/icons/LinkedIn_2.gif" alt="LinkedIn" loading="lazy" class="socicon" />
         </a>
         <!-- Github -->
         <a href="https:www.github.com/CandaceAndrews" target="_blank">
