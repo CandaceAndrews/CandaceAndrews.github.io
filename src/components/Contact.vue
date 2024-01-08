@@ -58,7 +58,6 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  /* background-color: rgb(252, 218, 224);  */
   background-color: #a3c1b0;
   padding: 20px;
   border-radius: 8px;
@@ -111,7 +110,6 @@ textarea {
 }
 
 button {
-  /* background-color: #5f907b; */
   background-color: rgb(66, 81, 74);
   color: #fff;
   padding: 10px 20px;
@@ -123,4 +121,7 @@ button {
   margin: 0 auto;
 }
 
+button:hover {
+    transform: scale(1.1);
+}
 </style>

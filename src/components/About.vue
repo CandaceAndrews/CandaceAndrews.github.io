@@ -49,8 +49,7 @@
             <div class="bio-section">
               <h2 class="bio-title">🌐 Philosophy</h2>
               <blockquote>
-                I believe in the power of technology to inspire, entertain, and solve real-world problems. 
-                Every line of code and stroke of design is a step towards creating a meaningful impact in the digital landscape.
+                ☆ I believe technology can inspire, entertain, and solve real problems, shaping a better future.
               </blockquote>
             </div>
           </div>
@@ -84,22 +83,13 @@ export default {
 
 .overlay-image {
   position: absolute;
-  top: 0%; /* Adjust the top position as needed */
+  top: 0%;
   left: 0;
-  width: 45%; /* Adjust the width as needed */
+  width: 45%; 
   height: auto;
   z-index: 2; /* Set a higher z-index than the profile picture */
   opacity: 0.7;
 }
-
-
-/* .pic-name-title {
-  background-color: #a3c1b0;
-  padding: 10px;
-  width: 100%;
-  height: auto;
-  border-bottom:2px solid rgb(87, 105, 97);
-} */
 
 .pic-name-title {
   background-color: rgba(163, 193, 176, 0.8); /* Use rgba with alpha for transparency */
@@ -155,13 +145,13 @@ export default {
   margin-bottom: 8px;
 }
 
-blockquote {
+/* blockquote {
   font-style: italic;
-  border-left: 4px solid #ca969a; /* Pink border for quote */
+  border-left: 4px solid #ca969a;
   padding-left: 15px;
   margin: 10px 0;
   background-color: #e2e9e6;
-}
+} */
 .about-content {
   margin: 35px 0px 10px 0px;
 }

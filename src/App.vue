@@ -4,6 +4,9 @@
     <router-view />
     <SocialIcons />
   </div>
+  <footer>
+    @ 2024 Candace Andrews
+  </footer>
 </template>
 
 <script>
@@ -40,5 +43,11 @@ body {
   text-align: center;
   color: #34423a;
   background-color: #d3e3d9;
+}
+
+footer {
+  color: #69736d;
+  margin-top: 25px;
+  font-size: small;
 }
 </style>
