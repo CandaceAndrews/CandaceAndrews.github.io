@@ -1,7 +1,7 @@
 <template>
     <div class="project-detail">
-      <h2>{{ project && project.projectName }}</h2>
-      <p>{{ project && project.description }}</p>
+      <h2>{{ project.projectName }}</h2>
+      <p>{{ project.description }}</p>
     </div>
   </template>
   
