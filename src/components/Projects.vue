@@ -7,6 +7,7 @@
     </div>
 </template>
 
+
 <script>
 import ProjectThumbnail from '../components/ProjectThumbnail.vue';
 
