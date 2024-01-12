@@ -2,21 +2,22 @@
     <div class="projects">
         <h1>📊 Projects</h1>
         <div class="projects-grid">
-            <ProjectThumbnail v-for="project in projects" :key="project.id" :project="project" />
+            <ProjectThumbnail
+                v-for="project in projects"
+                :key="project.id"
+                :project="project"
+            />
         </div>
-        <ProjectDetail :project="selectedProject" :projects="projects" />
     </div>
 </template>
 
 
 <script>
 import ProjectThumbnail from '../components/ProjectThumbnail.vue';
-import ProjectDetail from '../components/ProjectDetail.vue';
 
 export default {
     components: {
         ProjectThumbnail,
-        ProjectDetail,
     },
     data() {
         return {
@@ -63,7 +64,6 @@ export default {
     },
     methods: {
         navigateToProject(project) {
-            this.selectedProject = project;
             this.$router.push(`/projects/${project.id}`);
         },
     },
