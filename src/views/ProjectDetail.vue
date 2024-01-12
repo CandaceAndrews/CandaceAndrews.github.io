@@ -1,15 +1,17 @@
 <template>
   <div class="project-detail">
-    <h2 v-if="project">{{ project.projectName }}</h2>
-    <p v-if="project">{{ project.description }}</p>
-    <p class="no-data" v-else>No project data available.</p>
+    <h2>{{ project.projectName }}</h2>
+    <p>{{ project.description }}</p>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    project: Object,
+    project: {
+      type: Object,
+      required: true,
+    },
   },
 };
 </script>

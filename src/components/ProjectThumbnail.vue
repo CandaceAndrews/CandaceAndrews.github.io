@@ -13,6 +13,8 @@ export default {
     methods: {
         navigateToProject() {
             console.log(this.project);
+            console.log(this.project.projectName);
+            console.log(this.project.description);
             this.$router.push(`/projects/${this.project.id}`);
         },
     },
