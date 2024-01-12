@@ -4,16 +4,19 @@
         <div class="projects-grid">
             <ProjectThumbnail v-for="project in projects" :key="project.id" :project="project" />
         </div>
+        <ProjectDetail :project="selectedProject" :projects="projects" />
     </div>
 </template>
 
 
 <script>
 import ProjectThumbnail from '../components/ProjectThumbnail.vue';
+import ProjectDetail from '../components/ProjectDetail.vue';
 
 export default {
     components: {
         ProjectThumbnail,
+        ProjectDetail,
     },
     data() {
         return {
@@ -55,7 +58,14 @@ export default {
                     description: "App that allows the user to keep track of incompleted and completed tasks."
                 },
             ],
+            selectedProject: null, // Add this property to track the selected project
         };
+    },
+    methods: {
+        navigateToProject(project) {
+            this.selectedProject = project;
+            this.$router.push(`/projects/${project.id}`);
+        },
     },
 };
 </script>
