@@ -10,9 +10,14 @@ export default {
     props: {
         project: Object,
     },
+    // methods: {
+    //     navigateToProject() {
+    //         console.log(this.project);
+    //         this.$router.push(`/projects/${this.project.id}`);
+    //     },
     methods: {
         navigateToProject() {
-            this.$router.push(`/projects/${this.project.id}`);
+            this.$router.push({ name: 'ProjectDetail', params: { id: this.project.id } });
         },
     },
 };
