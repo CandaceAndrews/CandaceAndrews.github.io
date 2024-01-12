@@ -1,25 +1,22 @@
 <template>
-    <div class="project-thumbnail" @click="navigateToProject">
-        <img class="thumbnail-image" :src="project.thumbnailSource" :alt="project.projectName">
-        <h3>{{ project.projectName }}</h3>
-    </div>
+  <div class="project-thumbnail" @click="handleNavigateToProject">
+      <img class="thumbnail-image" :src="project.thumbnailSource" :alt="project.projectName">
+      <h3>{{ project.projectName }}</h3>
+  </div>
 </template>
-
-<script>
-export default {
+  
+  <script>
+  export default {
     props: {
-        project: Object,
+      project: Object,
     },
     methods: {
-        navigateToProject() {
-            console.log(this.project);
-            console.log(this.project.projectName);
-            console.log(this.project.description);
-            this.$router.push(`/projects/${this.project.id}`);
-        },
+      handleNavigateToProject() {
+        this.$router.push(`/projects/${this.project.id}`);
+      },
     },
-};
-</script>
+  };
+  </script>
 
 <style scoped>
 .project-thumbnail {

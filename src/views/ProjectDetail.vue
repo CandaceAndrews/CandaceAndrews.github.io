@@ -1,7 +1,10 @@
 <template>
-  <div class="project-detail">
+  <div v-if="project" class="project-detail">
     <h2>{{ project.projectName }}</h2>
     <p>{{ project.description }}</p>
+  </div>
+  <div v-else class="no-data">
+    No project data available.
   </div>
 </template>
 
@@ -10,8 +13,10 @@ export default {
   props: {
     project: {
       type: Object,
-      required: true,
     },
+  },
+  created() {
+    console.log('Received project prop:', this.project);
   },
 };
 </script>
