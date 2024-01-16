@@ -1,33 +1,30 @@
+
 <template>
-  <div v-if="project" class="project-detail">
-    <h2>{{ project.projectName }}</h2>
+  <div class="project-detail">
+    <h1>{{ project.projectName }}</h1>
+    <img class="detail-image" :src="project.thumbnailSource" :alt="project.projectName">
     <p>{{ project.description }}</p>
-  </div>
-  <div v-else class="no-data">
-    No project data available.
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    project: {
-      type: Object,
-    },
-  },
-  created() {
-    console.log('Received project prop:', this.project);
+    project: Object,
   },
 };
 </script>
 
 <style scoped>
 .project-detail {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
+  padding: 20px;
 }
 
-.no-data {
-  padding-top: 55px;
+.detail-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
 }
 </style>
