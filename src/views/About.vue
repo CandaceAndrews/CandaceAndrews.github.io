@@ -67,6 +67,12 @@
         </div>
       </div>
     </div>
+    <!-- Resume sectioin -->
+    <div class="resume-section">
+      <h2 class="resume-header">📄 My Resume</h2>
+      <p>Feel free to view or download my resume:</p>
+      <a href="/path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer">View/Download Resume (PDF)</a>
+    </div>
 </template>
   
 <script>
