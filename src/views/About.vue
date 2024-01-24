@@ -71,7 +71,7 @@
     <div class="resume-section">
       <h2 class="resume-header">📄 My Resume</h2>
       <p>Feel free to view or download my resume:</p>
-      <a href="/path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer">View/Download Resume (PDF)</a>
+      <a href="@/assets/Candace_Andrews_Resume.pdf" target="_blank" rel="noopener noreferrer">View/Download Resume (PDF)</a>
     </div>
 </template>
   
@@ -151,13 +151,6 @@ export default {
   margin-bottom: 8px;
 }
 
-/* blockquote {
-  font-style: italic;
-  border-left: 4px solid #ca969a;
-  padding-left: 15px;
-  margin: 10px 0;
-  background-color: #e2e9e6;
-} */
 .about-content {
   margin: 35px 0px 10px 0px;
 }
@@ -182,5 +175,31 @@ export default {
 
 p {
   margin-top: 0px;
+}
+
+.resume-section {
+  margin-top: 30px;
+}
+
+.resume-header {
+  color: #ca969a;
+  margin-bottom: 10px;
+}
+
+.resume-section p {
+  margin-bottom: 15px;
+}
+
+.resume-section a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.resume-section a:hover {
+  background-color: #0056b3;
 }
 </style>
