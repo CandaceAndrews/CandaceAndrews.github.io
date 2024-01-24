@@ -25,7 +25,7 @@
               </p>
             </div>
             <div class="bio-section">
-              <h2 class="bio-title">💡 Technical Expertise</h2>
+              <h2 class="bio-title">🖥️ Technical Expertise</h2>
               <ul class="skills-list">
                 <li>- Python</li>
                 <li>- Django</li>
@@ -69,7 +69,7 @@
     </div>
     <!-- Resume sectioin -->
     <div class="resume-section">
-      <h2 class="resume-header">📄 My Resume</h2>
+      <h2 class="resume-header">💾 My Resume</h2>
       <p>Feel free to view or download my resume:</p>
       <a href="@/assets/Candace_Andrews_Resume.pdf" target="_blank" rel="noopener noreferrer">View/Download Resume (PDF)</a>
     </div>
@@ -136,7 +136,6 @@ export default {
 
 .bio-title {
   font-size: 1.5em;
-  color: #ca969a;
   color: #b88085;
   margin-bottom: 7px;
   padding-top: 20px;
@@ -178,11 +177,14 @@ p {
 }
 
 .resume-section {
-  margin-top: 30px;
+  margin-top: 50px;
+  background-color: #e1f1e7;
+  margin: 50px 100px 0px 100px;
+  padding: 7px 0px 15px 0px;
 }
 
 .resume-header {
-  color: #ca969a;
+  color: #b88085;
   margin-bottom: 10px;
 }
 
@@ -194,7 +196,7 @@ p {
   display: inline-block;
   padding: 10px 20px;
   background-color: #007BFF;
-  color: #fff;
+  color: #fff;              
   text-decoration: none;
   border-radius: 5px;
 }
