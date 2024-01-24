@@ -69,9 +69,9 @@
     </div>
     <!-- Resume sectioin -->
     <div class="resume-section">
-      <h2 class="resume-header">💾 My Resume</h2>
+      <h2 class="resume-header">⬇️ My Resume</h2>
       <p>Feel free to view or download my resume:</p>
-      <a href="@/assets/Candace_Andrews_Resume.pdf" target="_blank" rel="noopener noreferrer">View/Download Resume (PDF)</a>
+      <a href="/Candace Andrews - Resume.pdf" target="_blank" rel="noopener noreferrer">View/Download Resume (PDF)</a>
     </div>
 </template>
   
