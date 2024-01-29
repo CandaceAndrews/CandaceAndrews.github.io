@@ -5,7 +5,7 @@
             <img src="@/assets/icons/LinkedIn_2.gif" alt="LinkedIn" loading="lazy" class="socicon" />
         </a>
         <!-- Github -->
-        <a href="https:www.github.com/CandaceAndrews" target="_blank">
+        <a href="https://www.github.com/CandaceAndrews/" target="_blank">
             <img src="@/assets/icons/github.gif" alt="Github" class="socicon" />
         </a>
     </div>
