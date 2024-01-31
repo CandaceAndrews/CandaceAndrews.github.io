@@ -85,16 +85,19 @@ export default {
 .about-page {
   margin: 50px 0px 0px 0px;
   position: relative; /* Make the parent container relative for absolute positioning */
+  overflow-x: hidden;
 }
 
 .overlay-image {
   position: absolute;
   top: 0%;
-  left: 0;
+  left: 0%;
   width: 45%; 
   height: auto;
   z-index: 2; /* Set a higher z-index than the profile picture */
   opacity: 0.7;
+  display: block;
+  object-fit: cover;
 }
 
 .pic-name-title {
@@ -104,6 +107,7 @@ export default {
   height: auto;
   border-bottom: 2px solid rgb(87, 105, 97);
   position: relative; /* Ensure the relative positioning for the child elements */
+  overflow: hidden;
 }
 .profile-picture {
     border-radius: 50%; 
