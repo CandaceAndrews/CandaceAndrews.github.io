@@ -71,7 +71,7 @@
     <div class="resume-section">
       <h2 class="resume-header">⬇️ My Resume</h2>
       <p>Feel free to view or download my resume:</p>
-      <a href="/Candace Andrews - Resume.pdf" target="_blank" rel="noopener noreferrer">View/Download Resume (PDF)</a>
+      <a href="https://drive.google.com/file/d/1mDZ8VG0toQSOryCEY-s5VDf1JwqPywWZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">View/Download Resume (PDF)</a>
     </div>
 </template>
   

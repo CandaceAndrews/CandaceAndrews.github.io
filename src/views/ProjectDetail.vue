@@ -5,6 +5,9 @@
     <img class="detail-image" :src="project.thumbnailSource" :alt="project.projectName">
     <p>{{ project.description }}</p>
   </div>
+  <div class="video-container">
+    
+  </div>
 </template>
 
 <script>
