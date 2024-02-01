@@ -11,7 +11,7 @@ const projects = [
         projectName: "Dinosaur Fighting Game",
         thumbnailSource: require('@/assets/thumbnails/Dinosaur-Fighting-Game.png'),
         description: "Trying to recreate the classic 'Primal Rage' arcade game in Pygame. So far I have Diablo and Sauron.",
-        youtubeVideoId: "V4lDmFBwCgU"
+        youtubeVideoId: "tLRHc_CkOuQ"
     },
     {
         id: 3,
@@ -38,7 +38,8 @@ const projects = [
         id: 6,
         projectName: "Task Manager Application",
         thumbnailSource: require('@/assets/thumbnails/Task-Manager-Application.png'),
-        description: "App that allows the user to keep track of incompleted and completed tasks."
+        description: "App that allows the user to keep track of incompleted and completed tasks.",
+        youtubeVideoId: "V4lDmFBwCgU"
     },
 ];
 
