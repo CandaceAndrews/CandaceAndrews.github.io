@@ -17,6 +17,9 @@
       allowfullscreen
     ></iframe>
   </div>
+  <div class="Github-Repo">
+    <a :href="getGithubRepo(project.githubRepo)" target="_blank">GitHub Repo</a>
+  </div>
 </template>
 
 <script>
@@ -27,6 +30,9 @@ export default {
   methods: {
     getYouTubeEmbedUrl(videoId) {
       return `https://www.youtube.com/embed/${videoId}`;
+    },
+    getGithubRepo(repoId) {
+      return `https://github.com/CandaceAndrews/${repoId}`;
     },
   },
 };
