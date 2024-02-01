@@ -1,7 +1,7 @@
 const projects = [
     {
         id: 1,
-        projectName: "Final Project Weather App",
+        projectName: "Weather App Team Project",
         thumbnailSource: require('@/assets/thumbnails/Final-Project-Weather-App.png'),
         description: 'Final project for Team 17 at Momentum Learning. My team and I wanted to work on something fun and that would help younger users get into the weather more.',
         youtubeVideoId: "V4lDmFBwCgU",

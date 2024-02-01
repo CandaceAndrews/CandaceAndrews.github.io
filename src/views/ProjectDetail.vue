@@ -5,8 +5,42 @@
     <img class="detail-image" :src="project.thumbnailSource" :alt="project.projectName">
     <p>{{ project.description }}</p>
   </div>
+
+  <!-- Project Overview Section -->
+  <section class="project-section">
+    <h2>Project Overview</h2>
+    <p>
+        Provide a brief overview of the project, including its purpose, goals, and key features.
+    </p>
+  </section>
+
+  <!-- Challenges and Solutions Section -->
+  <section class="project-section">
+    <h2>Challenges and Solutions</h2>
+    <p>
+        Share any challenges or problems you encountered during the development process and how you overcame them.
+    </p>
+  </section>
+
+  <!-- Technologies Used Section -->
+  <section>
+    <h2>Technologies Used</h2>
+    <ul>
+      <li>List of technologies used</li>
+    </ul>
+  </section>
+
+  <!-- Design Decisions Section -->
+  <section class="project-section">
+    <h2>Design Decisions</h2>
+    <p>
+      Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.
+    </p>
+  </section>
+
+  <!-- Demo Video Section -->
   <div class="video-container">
-    <!-- YouTube video demo -->
+    <h2>Demo Video</h2>
     <iframe 
       width="560" 
       height="315" 
@@ -17,8 +51,18 @@
       allowfullscreen
     ></iframe>
   </div>
+
+  <!-- Code Snippets Section -->
+  <section class="project-section">
+    <h2>Code Snippets</h2>
+    <pre>
+      <code>Code snippets with explanations</code>
+    </pre>
+  </section>
+
+  <!-- GitHub Repo Section -->
   <div class="Github-Repo">
-    <a :href="getGithubRepo(project.githubRepo)" target="_blank">GitHub Repo</a>
+    <a :href="getGithubRepo(project.githubRepo)" target="_blank" class="repo-link">{{ project.projectName }} Repo</a>
   </div>
 </template>
 
@@ -49,6 +93,24 @@ padding: 50px;
   max-width: 100%;
   height: auto;
   margin-bottom: 15px;
+}
+
+.Github-Repo {
+  margin-top: 20px;
+}
+
+.repo-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.repo-link:hover {
+  background-color: #218838;
 }
 
 </style>
