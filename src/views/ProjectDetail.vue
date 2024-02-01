@@ -60,6 +60,22 @@
     </pre>
   </section>
 
+  <!-- Project Impact Section -->
+    <section class="project-section">
+    <h2>Project Impact</h2>
+    <p>
+      Share any impact the project has had, including user feedback, download statistics, or recognition received.
+    </p>
+  </section>
+
+  <!-- Future Plans Section -->
+  <section class="project-section">
+    <h2>Future Plans</h2>
+    <p>
+      Mention any future plans or enhancements you have in mind for the project.
+    </p>
+  </section>
+
   <!-- GitHub Repo Section -->
   <div class="Github-Repo">
     <a :href="getGithubRepo(project.githubRepo)" target="_blank" class="repo-link">{{ project.projectName }} Repo</a>
