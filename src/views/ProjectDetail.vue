@@ -129,4 +129,11 @@ padding: 50px;
   background-color: #218838;
 }
 
+
+.project-section {
+  margin-bottom: 20px;
+  background-color: #e1f1e7;
+  padding: 0px 15px 10px 15px;
+}
+
 </style>

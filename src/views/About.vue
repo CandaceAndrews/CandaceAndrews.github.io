@@ -184,7 +184,7 @@ p {
   margin-top: 50px;
   background-color: #e1f1e7;
   margin: 50px 100px 0px 100px;
-  padding: 7px 0px 15px 0px;
+  padding: 7px 0px 25px 0px;
 }
 
 .resume-header {
