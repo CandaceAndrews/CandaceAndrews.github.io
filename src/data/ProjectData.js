@@ -9,6 +9,11 @@ const projects = [
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
         technologiesUsed: "List of technologies used",
+        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
+        codeSnippet: "Code snippets",
+        codeExplain: "Explain code snippet",
+        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
+        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
     },
     {
         id: 2,
@@ -20,6 +25,11 @@ const projects = [
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
         technologiesUsed: "List of technologies used",
+        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
+        codeSnippet: "Code snippets",
+        codeExplain: "Explain code snippet",
+        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
+        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
     },
     {
         id: 3,
@@ -31,6 +41,11 @@ const projects = [
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
         technologiesUsed: "List of technologies used",
+        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
+        codeSnippet: "Code snippets",
+        codeExplain: "Explain code snippet",
+        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
+        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
     },
     {
         id: 4,
@@ -42,6 +57,11 @@ const projects = [
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
         technologiesUsed: "List of technologies used",
+        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
+        codeSnippet: "Code snippets",
+        codeExplain: "Explain code snippet",
+        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
+        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
     },
     {
         id: 5,
@@ -53,6 +73,11 @@ const projects = [
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
         technologiesUsed: "List of technologies used",
+        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
+        codeSnippet: "Code snippets",
+        codeExplain: "Explain code snippet",
+        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
+        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
     },
     {
         id: 6,
@@ -64,6 +89,11 @@ const projects = [
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
         technologiesUsed: "List of technologies used",
+        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
+        codeSnippet: "Code snippets",
+        codeExplain: "Explain code snippet",
+        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
+        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
     },
 ];
 

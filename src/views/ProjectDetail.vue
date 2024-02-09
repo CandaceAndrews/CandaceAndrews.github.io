@@ -36,7 +36,7 @@
   <section class="project-section">
     <h2>Design Decisions</h2>
     <p>
-      Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.
+      {{ project.designDecisions }}
     </p>
   </section>
 
@@ -58,15 +58,16 @@
   <section class="project-section">
     <h2>Code Snippets</h2>
     <pre>
-      <code>Code snippets with explanations</code>
+      <code>{{ project.codeSnippet }}</code>
     </pre>
+    <p>{{ project.codeExplain }}</p>
   </section>
 
   <!-- Project Impact Section -->
     <section class="project-section">
     <h2>Project Impact</h2>
     <p>
-      Share any impact the project has had, including user feedback, download statistics, or recognition received.
+      {{ project.projectImpact }}
     </p>
   </section>
 
