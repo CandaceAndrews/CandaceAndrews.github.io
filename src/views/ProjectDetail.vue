@@ -26,7 +26,9 @@
   <section>
     <h2>Technologies Used</h2>
     <ul>
-      <li>List of technologies used</li>
+      <li>
+        {{ project.technologiesUsed }}
+      </li>
     </ul>
   </section>
 

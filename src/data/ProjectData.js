@@ -8,6 +8,7 @@ const projects = [
         githubRepo: "Final-Project-Weather-App",
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
+        technologiesUsed: "List of technologies used",
     },
     {
         id: 2,
@@ -18,6 +19,7 @@ const projects = [
         githubRepo: "Dinosaur-Fighting-Game",
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
+        technologiesUsed: "List of technologies used",
     },
     {
         id: 3,
@@ -28,6 +30,7 @@ const projects = [
         githubRepo: "Social-Card-Team-Project",
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
+        technologiesUsed: "List of technologies used",
     },
     {
         id: 4,
@@ -38,6 +41,7 @@ const projects = [
         githubRepo: "Library-API",
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
+        technologiesUsed: "List of technologies used",
     },
     {
         id: 5,
@@ -48,6 +52,7 @@ const projects = [
         githubRepo: "Poke-API-Project",
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
+        technologiesUsed: "List of technologies used",
     },
     {
         id: 6,
@@ -58,6 +63,7 @@ const projects = [
         githubRepo: "Task-Manager-Application",
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
+        technologiesUsed: "List of technologies used",
     },
 ];
 
