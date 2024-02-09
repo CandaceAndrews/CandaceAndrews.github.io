@@ -6,7 +6,8 @@ const projects = [
         description: 'Final project for Team 17 at Momentum Learning. My team and I wanted to work on something fun and that would help younger users get into Meteorology more.',
         youtubeVideoId: "V4lDmFBwCgU",
         githubRepo: "Final-Project-Weather-App",
-        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
+        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ const projects = [
         description: "Trying to recreate the classic 'Primal Rage' arcade game in Pygame. So far I have Diablo and Sauron.",
         youtubeVideoId: "tLRHc_CkOuQ",
         githubRepo: "Dinosaur-Fighting-Game",
-        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
+        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ const projects = [
         description: "Team project where backend and frontend collaborated to make a card site for users to create greeting cards, share them on a feed and follow other users.",
         youtubeVideoId: "V4lDmFBwCgU",
         githubRepo: "Social-Card-Team-Project",
-        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
+        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ const projects = [
         description: "API application that lets users keep track of books, including important information like title, author, publication date, a genre, and a field that marks it as 'featured'.",
         youtubeVideoId: "V4lDmFBwCgU",
         githubRepo: "Library-API",
-        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
+        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
     },
     {
         id: 5,
@@ -42,7 +46,8 @@ const projects = [
         description: "Pulls from the PokeAPI, Displays: Name, Id, Image, Attacks and Type, Stores the information in a local database.",
         youtubeVideoId: "V4lDmFBwCgU",
         githubRepo: "Poke-API-Project",
-        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
+        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
     },
     {
         id: 6,
@@ -51,7 +56,8 @@ const projects = [
         description: "App that allows the user to keep track of incompleted and completed tasks.",
         youtubeVideoId: "V4lDmFBwCgU",
         githubRepo: "Task-Manager-Application",
-        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
+        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
     },
 ];
 

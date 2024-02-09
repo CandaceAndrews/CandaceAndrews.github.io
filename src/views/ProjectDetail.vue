@@ -18,7 +18,7 @@
   <section class="project-section">
     <h2>Challenges and Solutions</h2>
     <p>
-        Share any challenges or problems you encountered during the development process and how you overcame them.
+        {{ project.challengesSolutions }}
     </p>
   </section>
 
