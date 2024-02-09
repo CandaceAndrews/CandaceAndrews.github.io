@@ -3,9 +3,10 @@ const projects = [
         id: 1,
         projectName: "Weather App Team Project",
         thumbnailSource: require('@/assets/thumbnails/Final-Project-Weather-App.png'),
-        description: 'Final project for Team 17 at Momentum Learning. My team and I wanted to work on something fun and that would help younger users get into the weather more.',
+        description: 'Final project for Team 17 at Momentum Learning. My team and I wanted to work on something fun and that would help younger users get into Meteorology more.',
         youtubeVideoId: "V4lDmFBwCgU",
-        githubRepo: "Final-Project-Weather-App"
+        githubRepo: "Final-Project-Weather-App",
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
     },
     {
         id: 2,
@@ -13,7 +14,8 @@ const projects = [
         thumbnailSource: require('@/assets/thumbnails/Dinosaur-Fighting-Game.png'),
         description: "Trying to recreate the classic 'Primal Rage' arcade game in Pygame. So far I have Diablo and Sauron.",
         youtubeVideoId: "tLRHc_CkOuQ",
-        githubRepo: "Dinosaur-Fighting-Game"
+        githubRepo: "Dinosaur-Fighting-Game",
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
     },
     {
         id: 3,
@@ -21,7 +23,8 @@ const projects = [
         thumbnailSource: require('@/assets/thumbnails/Social-Card-Team-Project.png'),
         description: "Team project where backend and frontend collaborated to make a card site for users to create greeting cards, share them on a feed and follow other users.",
         youtubeVideoId: "V4lDmFBwCgU",
-        githubRepo: "Social-Card-Team-Project"
+        githubRepo: "Social-Card-Team-Project",
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
     },
     {
         id: 4,
@@ -29,7 +32,8 @@ const projects = [
         thumbnailSource: require('@/assets/thumbnails/Library-API.png'),
         description: "API application that lets users keep track of books, including important information like title, author, publication date, a genre, and a field that marks it as 'featured'.",
         youtubeVideoId: "V4lDmFBwCgU",
-        githubRepo: "Library-API"
+        githubRepo: "Library-API",
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
     },
     {
         id: 5,
@@ -37,7 +41,8 @@ const projects = [
         thumbnailSource: require('@/assets/thumbnails/Poke-API-Project.png'),
         description: "Pulls from the PokeAPI, Displays: Name, Id, Image, Attacks and Type, Stores the information in a local database.",
         youtubeVideoId: "V4lDmFBwCgU",
-        githubRepo: "Poke-API-Project"
+        githubRepo: "Poke-API-Project",
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
     },
     {
         id: 6,
@@ -45,7 +50,8 @@ const projects = [
         thumbnailSource: require('@/assets/thumbnails/Task-Manager-Application.png'),
         description: "App that allows the user to keep track of incompleted and completed tasks.",
         youtubeVideoId: "V4lDmFBwCgU",
-        githubRepo: "Task-Manager-Application"
+        githubRepo: "Task-Manager-Application",
+        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features."
     },
 ];
 

@@ -10,7 +10,7 @@
   <section class="project-section">
     <h2>Project Overview</h2>
     <p>
-        Provide a brief overview of the project, including its purpose, goals, and key features.
+        {{ project.projectOverview }}
     </p>
   </section>
 
@@ -131,9 +131,10 @@ padding: 50px;
 
 
 .project-section {
-  margin-bottom: 20px;
+  margin-top: 50px;
   background-color: #e1f1e7;
-  padding: 0px 15px 10px 15px;
+  margin: 50px 100px 0px 100px;
+  padding: 7px 0px 25px 0px;
 }
 
 </style>
