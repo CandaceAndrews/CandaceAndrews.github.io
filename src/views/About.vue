@@ -199,6 +199,7 @@ p {
 .resume-section a {
   display: inline-block;
   padding: 10px 20px;
+  margin: 0px 10px 0px 10px;
   background-color: #007BFF;
   color: #fff;              
   text-decoration: none;

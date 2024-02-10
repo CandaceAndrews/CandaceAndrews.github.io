@@ -1,85 +1,87 @@
 
 <template>
-  <div class="project-detail">
-    <h1>{{ project.projectName }}</h1>
-    <img class="detail-image" :src="project.thumbnailSource" :alt="project.projectName">
-    <p>{{ project.description }}</p>
-  </div>
+  <div class="project-detail-page">
+    <div class="project-detail">
+      <h1>{{ project.projectName }}</h1>
+      <img class="detail-image" :src="project.thumbnailSource" :alt="project.projectName">
+      <p>{{ project.description }}</p>
+    </div>
 
-  <!-- Project Overview Section -->
-  <section class="project-section">
-    <h2 class="section-title">📚 Project Overview</h2>
-    <p>
-        {{ project.projectOverview }}
-    </p>
-  </section>
-
-  <!-- Challenges and Solutions Section -->
-  <section class="project-section">
-    <h2 class="section-title">🚧 Challenges and Solutions</h2>
-    <p>
-        {{ project.challengesSolutions }}
-    </p>
-  </section>
-
-  <!-- Technologies Used Section -->
-  <section>
-    <h2 class="section-title">⚙️ Technologies Used</h2>
-      <p>
-        ➤ {{ project.technologiesUsed }}
-      </p>
-  </section>
-
-  <!-- Design Decisions Section -->
-  <section class="project-section">
-    <h2 class="section-title">🧠 Design Decisions</h2>
-    <p>
-      {{ project.designDecisions }}
-    </p>
-  </section>
-
-  <!-- Demo Video Section -->
-  <div class="video-container">
-    <h2 class="section-title">🎥 Demo Video</h2>
-    <iframe 
-      width="560" 
-      height="315" 
-      :src="getYouTubeEmbedUrl(project.youtubeVideoId)"
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
-  </div>
-
-  <!-- Code Snippets Section -->
-  <section class="project-section">
-    <h2 class="section-title">💻 Code Snippets</h2>
-    <pre>
-      <code>{{ project.codeSnippet }}</code>
-    </pre>
-    <p>{{ project.codeExplain }}</p>
-  </section>
-
-  <!-- Project Impact Section -->
+    <!-- Project Overview Section -->
     <section class="project-section">
-    <h2 class="section-title">🌟 Project Impact</h2>
-    <p>
-      {{ project.projectImpact }}
-    </p>
-  </section>
+      <h2 class="section-title">📚 Project Overview</h2>
+      <p>
+          {{ project.projectOverview }}
+      </p>
+    </section>
 
-  <!-- Future Plans Section -->
-  <section class="project-section">
-    <h2 class="section-title">🗺️ Future Plans</h2>
-    <p>
-      Mention any future plans or enhancements you have in mind for the project.
-    </p>
-  </section>
+    <!-- Challenges and Solutions Section -->
+    <section class="project-section">
+      <h2 class="section-title">🚧 Challenges and Solutions</h2>
+      <p>
+          {{ project.challengesSolutions }}
+      </p>
+    </section>
 
-  <!-- GitHub Repo Section -->
-  <div class="Github-Repo">
-    <a :href="getGithubRepo(project.githubRepo)" target="_blank" class="repo-link">{{ project.projectName }} Repo</a>
+    <!-- Technologies Used Section -->
+    <section>
+      <h2 class="section-title">⚙️ Technologies Used</h2>
+        <p>
+          ➤ {{ project.technologiesUsed }}
+        </p>
+    </section>
+
+    <!-- Design Decisions Section -->
+    <section class="project-section">
+      <h2 class="section-title">🧠 Design Decisions</h2>
+      <p>
+        {{ project.designDecisions }}
+      </p>
+    </section>
+
+    <!-- Demo Video Section -->
+    <div class="video-container">
+      <h2 class="section-title">🎥 Demo Video</h2>
+      <iframe 
+        width="560" 
+        height="315" 
+        :src="getYouTubeEmbedUrl(project.youtubeVideoId)"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- Code Snippets Section -->
+    <section class="project-section">
+      <h2 class="section-title">💻 Code Snippets</h2>
+      <pre>
+        <code>{{ project.codeSnippet }}</code>
+      </pre>
+      <p>{{ project.codeExplain }}</p>
+    </section>
+
+    <!-- Project Impact Section -->
+      <section class="project-section">
+      <h2 class="section-title">🌟 Project Impact</h2>
+      <p>
+        {{ project.projectImpact }}
+      </p>
+    </section>
+
+    <!-- Future Plans Section -->
+    <section class="project-section">
+      <h2 class="section-title">🗺️ Future Plans</h2>
+      <p>
+        Mention any future plans or enhancements you have in mind for the project.
+      </p>
+    </section>
+
+    <!-- GitHub Repo Section -->
+    <div class="Github-Repo">
+      <a :href="getGithubRepo(project.githubRepo)" target="_blank" class="repo-link">{{ project.projectName }} Repo</a>
+    </div>
   </div>
 </template>
 
@@ -100,6 +102,10 @@ export default {
 </script>
 
 <style scoped>
+.project-detail-page {
+  overflow-x: hidden;
+}
+
 .project-detail {
 max-width: 800px;
 margin: 0 auto;
