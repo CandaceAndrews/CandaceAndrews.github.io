@@ -25,11 +25,9 @@
   <!-- Technologies Used Section -->
   <section>
     <h2>Technologies Used</h2>
-    <ul>
-      <li>
-        {{ project.technologiesUsed }}
-      </li>
-    </ul>
+      <p>
+        ➤ {{ project.technologiesUsed }}
+      </p>
   </section>
 
   <!-- Design Decisions Section -->
@@ -116,6 +114,7 @@ padding: 50px;
 
 .Github-Repo {
   margin-top: 20px;
+  padding-top: 10px;
 }
 
 .repo-link {
@@ -137,7 +136,7 @@ padding: 50px;
   margin-top: 50px;
   background-color: #e1f1e7;
   margin: 50px 100px 0px 100px;
-  padding: 7px 0px 25px 0px;
+  padding: 7px 15px 25px 15px;
 }
 
 </style>
