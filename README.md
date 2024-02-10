@@ -1,4 +1,4 @@
-[⭐ Portfolio website link](https://candaceandrews.github.io/Portfolio-Website/#/)
+⭐ [PORTFOLIO WEBSITE LINK](https://candaceandrews.github.io/Portfolio-Website/#/)
 
 ## Project setup
 ```
