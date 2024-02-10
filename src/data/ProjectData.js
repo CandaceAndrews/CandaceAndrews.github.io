@@ -8,14 +8,19 @@ const projects = [
         githubRepo: "Final-Project-Weather-App",
         projectOverview: `
         This is an animal collection weather app that me and three other students made for our final project for Momentum. 
+      
         The original title was ‘Is It Raining?’ and it was built to be a weather app for a target audience of users aged 10 and up.
         The hope was to create a ‘Pokemon Go’ type app that would combine weather conditions and creature collecting.
+      
         It displays real-time weather updates pulled from the OpenWeatherMap API and generates a random animal to appear according to the day’s weather.
         Each animal had a set weather condition that they would appear during.
-        The user could catch them and add them to their collection. Anyone can view the weather but to catch an animal and start a collection
-        the user will have to create an account. After catching the same animal multiple times points are accumulated and the animal can transform into a ‘Mega Beast’.
-        A user can only catch the same animal once every 12 hours. There are 47 unique creature designs for this project all illustrated by myself.
-         `,
+      
+        The user could catch them and add them to their collection. Anyone can view the weather, but to catch an animal and start a collection,
+        the user will have to create an account. After catching the same animal multiple times, points are accumulated, and the animal can transform into a ‘Mega Beast’.
+        A user can only catch the same animal once every 12 hours.
+      
+        There are 47 unique creature designs for this project, all illustrated by myself.
+        `,
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
         technologiesUsed: "List of technologies used",
         designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",

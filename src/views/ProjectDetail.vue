@@ -8,7 +8,7 @@
 
   <!-- Project Overview Section -->
   <section class="project-section">
-    <h2>Project Overview</h2>
+    <h2 class="section-title">📚 Project Overview</h2>
     <p>
         {{ project.projectOverview }}
     </p>
@@ -16,7 +16,7 @@
 
   <!-- Challenges and Solutions Section -->
   <section class="project-section">
-    <h2>Challenges and Solutions</h2>
+    <h2 class="section-title">🚧 Challenges and Solutions</h2>
     <p>
         {{ project.challengesSolutions }}
     </p>
@@ -24,7 +24,7 @@
 
   <!-- Technologies Used Section -->
   <section>
-    <h2>Technologies Used</h2>
+    <h2 class="section-title">⚙️ Technologies Used</h2>
       <p>
         ➤ {{ project.technologiesUsed }}
       </p>
@@ -32,7 +32,7 @@
 
   <!-- Design Decisions Section -->
   <section class="project-section">
-    <h2>Design Decisions</h2>
+    <h2 class="section-title">🧠 Design Decisions</h2>
     <p>
       {{ project.designDecisions }}
     </p>
@@ -40,7 +40,7 @@
 
   <!-- Demo Video Section -->
   <div class="video-container">
-    <h2>Demo Video</h2>
+    <h2 class="section-title">🎥 Demo Video</h2>
     <iframe 
       width="560" 
       height="315" 
@@ -54,7 +54,7 @@
 
   <!-- Code Snippets Section -->
   <section class="project-section">
-    <h2>Code Snippets</h2>
+    <h2 class="section-title">💻 Code Snippets</h2>
     <pre>
       <code>{{ project.codeSnippet }}</code>
     </pre>
@@ -63,7 +63,7 @@
 
   <!-- Project Impact Section -->
     <section class="project-section">
-    <h2>Project Impact</h2>
+    <h2 class="section-title">🌟 Project Impact</h2>
     <p>
       {{ project.projectImpact }}
     </p>
@@ -71,7 +71,7 @@
 
   <!-- Future Plans Section -->
   <section class="project-section">
-    <h2>Future Plans</h2>
+    <h2 class="section-title">🗺️ Future Plans</h2>
     <p>
       Mention any future plans or enhancements you have in mind for the project.
     </p>
@@ -106,6 +106,11 @@ margin: 0 auto;
 padding: 50px;
 }
 
+.section-title {
+  font-size: 1.5em;
+  color: #b88085;
+}
+
 .detail-image {
   max-width: 100%;
   height: auto;
@@ -137,6 +142,7 @@ padding: 50px;
   background-color: #e1f1e7;
   margin: 50px 100px 0px 100px;
   padding: 7px 15px 25px 15px;
+  white-space: pre-line;
 }
 
 </style>
