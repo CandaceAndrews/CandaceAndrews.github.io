@@ -144,9 +144,9 @@ padding: 50px;
 
 
 .project-section {
-  margin-top: 50px;
   background-color: #e1f1e7;
-  margin: 50px 100px 0px 100px;
+  /* margin: 50px 100px 0px 100px; */
+  margin: 3% 3% 0% 3%;
   padding: 7px 15px 25px 15px;
   white-space: pre-line;
 }

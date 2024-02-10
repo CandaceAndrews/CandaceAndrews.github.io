@@ -128,7 +128,8 @@ export default {
 }
 
 .bio {
-  margin: 0px 100px 0px 100px;
+  /* margin: 0px 100px 0px 100px; */
+  margin: 0% 3% 0% 3%;
   line-height: 1.5;
 }
 
@@ -136,6 +137,7 @@ export default {
   margin-bottom: 20px;
   background-color: #e1f1e7;
   padding: 0px 15px 10px 15px;
+
 }
 
 .bio-title {
@@ -164,7 +166,9 @@ export default {
 }
 
 .about-me {
-  margin: 0px 100px 0px 100px;
+  /* margin: 0px 100px 0px 100px; */
+  margin: 0% 3% 0% 3%;
+  padding-bottom: 15px;
 
 }
 .skills-header {
