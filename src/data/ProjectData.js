@@ -31,7 +31,7 @@ const projects = [
 
         To achieve this, I coded a mechanism that calculates the time difference between the current moment and the user's last capture date.
         `,
-        technologiesUsed: "List of technologies used",
+        technologiesUsed: ["React", "Django", "Python", "JavaScript", "JSON", "Postgresql", "HTML", "CSS"],
         designDecisions: `
         Our primary objective was to maintain a user-friendly and straightforward experience. 
 
@@ -39,7 +39,7 @@ const projects = [
         In pursuit of enhanced user engagement, we implemented progress bars beneath each captured animal in the user's inventory. 
         This thoughtful design choice empowers users to visualize their progress toward leveling up each creature with ease and efficiency. 
         The integration of progress bars serves as an intuitive way to convey essential information about each animal.
-        
+
         Furthermore, I prioritized consistency in the visual aesthetic, opting for a fun and cartoonish style across all the animals. 
         `,
         codeSnippet: require('@/assets/codesnippets/weatherapp_code_1.png'),

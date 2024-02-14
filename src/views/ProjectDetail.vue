@@ -26,8 +26,8 @@
     <!-- Technologies Used Section -->
     <section>
       <h2 class="section-title">⚙️ Technologies Used</h2>
-        <p>
-          ➤ {{ project.technologiesUsed }}
+        <p v-for="technology in project.technologiesUsed" :key="technology">
+          • {{ technology }}
         </p>
     </section>
 
