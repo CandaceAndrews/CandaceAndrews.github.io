@@ -24,19 +24,31 @@ const projects = [
         `,
         challengesSolutions: `
         While developing this app, a notable challenge emerged concerning the scoring system for collecting identical animals. 
+
         Our team aimed to enable users to level up a creature after capturing it multiple times. 
         However, to prevent users from exploiting the system by repeatedly catching the same creature, a careful balance needed to be struck. 
-        After thoughtful consideration, we agreed that implementing a 12-hour time restriction would be an effective solution. T
-        o achieve this, I coded a mechanism that calculates the time difference between the current moment and the user's last capture date.
+        After thoughtful consideration, we agreed that implementing a 12-hour time restriction would be an effective solution. 
+
+        To achieve this, I coded a mechanism that calculates the time difference between the current moment and the user's last capture date.
         `,
         technologiesUsed: "List of technologies used",
-        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
+        designDecisions: `
+        Our primary objective was to maintain a user-friendly and straightforward experience. 
+
+        Every symbol and icon featured in the app underwent a team voting process to ensure alignment with the overall theme and design.
+        In pursuit of enhanced user engagement, we implemented progress bars beneath each captured animal in the user's inventory. 
+        This thoughtful design choice empowers users to visualize their progress toward leveling up each creature with ease and efficiency. 
+        The integration of progress bars serves as an intuitive way to convey essential information about each animal.
+        
+        Furthermore, I prioritized consistency in the visual aesthetic, opting for a fun and cartoonish style across all the animals. 
+        `,
         codeSnippet: require('@/assets/codesnippets/weatherapp_code_1.png'),
         codeExplain: `
         Below is code for my serializer named AnimalSerializer. It is designed to handle the serialization of instances of the Animal model. 
         The get_weather method maps numeric weather codes from the OpenWeatherAPI to the corresponding animals.
 
-        The get_can_capture method checks if the current user is authenticated and has the permission to capture the animal based on a time constraint. If the user has not captured the animal before or if enough time (12 hours) has passed since the last capture, the method returns True, indicating that the user can capture the animal. 
+        The get_can_capture method checks if the current user is authenticated and has the permission to capture the animal based on a time constraint. 
+        If the user has not captured the animal before or if enough time (12 hours) has passed since the last capture, the method returns True, indicating that the user can capture the animal. 
 
         The get_points_left_until_max method calculates the points left until the animal reaches its maximum level, considering a maximum of 10 points. The points are calculated based on the user's previous captures of the animal.
         `,

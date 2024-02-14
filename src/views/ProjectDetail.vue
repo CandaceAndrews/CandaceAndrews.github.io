@@ -4,7 +4,7 @@
     <div class="project-detail">
       <h1>{{ project.projectName }}</h1>
       <img class="detail-image" :src="project.thumbnailSource" :alt="project.projectName">
-      <p>{{ project.description }}</p>
+      <p><i>{{ project.description }}</i></p>
     </div>
 
     <!-- Project Overview Section -->
