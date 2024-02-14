@@ -52,8 +52,20 @@ const projects = [
 
         The get_points_left_until_max method calculates the points left until the animal reaches its maximum level, considering a maximum of 10 points. The points are calculated based on the user's previous captures of the animal.
         `,
-        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
-        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
+        projectImpact: `
+        This project holds significant personal importance as it marked the culmination of my course at Momentum Learning. 
+        
+        The final presentation, which involved showcasing our app in front of a live audience and a panel of judges, was a nerve-wracking yet rewarding experience. 
+        Despite the initial anxiety, the joy of presenting alongside my team and witnessing the judges' smiles and enjoyment during the live demo, complete with music and animated animals, made the entire journey worthwhile.
+
+        The challenges encountered in the development process, particularly working with Django, not only broadened my technical skills but also significantly bolstered my confidence in presenting my work. 
+        
+        This project stands as a testament to my growth, not just as a developer but as a confident presenter, ultimately leaving a lasting impact on my journey in the world of technology.
+        `,
+        futurePlans: `
+        At this moment, I haven't solidified any future plans for this project. 
+        However, I've entertained the idea of leveraging the knowledge gained from this experience to embark on the creation of another app with a similar concept. 
+        `
     },
     {
         id: 2,

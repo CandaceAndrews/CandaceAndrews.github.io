@@ -74,7 +74,7 @@
     <section class="project-section">
       <h2 class="section-title">🗺️ Future Plans</h2>
       <p>
-        Mention any future plans or enhancements you have in mind for the project.
+        {{ project.futurePlans }}
       </p>
     </section>
 
