@@ -56,10 +56,7 @@
     <!-- Code Snippets Section -->
     <section class="project-section">
       <h2 class="section-title">💻 Code Snippets</h2>
-      <pre>
-        <code>{{ project.codeSnippet }}</code>
-      </pre>
-      <p>{{ project.codeExplain }}</p>
+      <img :src="project.codeSnippet" alt="code from project">
     </section>
 
     <!-- Project Impact Section -->
