@@ -7,13 +7,28 @@ const projects = [
         youtubeVideoId: "V4lDmFBwCgU",
         githubRepo: "Final-Project-Weather-App",
         projectOverview: `
-        Our final project for Momentum was the creation of an innovative animal collection weather app, named 'Is It Raining?' The project was a collaborative effort among myself and three fellow students, aiming to blend weather updates with creature collecting in a manner reminiscent of 'Pokemon Go.'
-        Designed with a target audience of users aged 10 and above, the app seamlessly integrates real-time weather data sourced from the OpenWeatherMap API. A distinctive feature of the app is its ability to generate a unique animal corresponding to the day's weather conditions. Each creature is programmed to appear in alignment with specific weather conditions, adding an element of surprise and engagement for users.
-        To build their collection, users are required to catch these creatures, a process initiated by creating an account. The app allows anyone to view weather updates, but the delightful task of creature-catching and collection-building is reserved for registered users.
-        Catching the same animal multiple times unlocks the transformation into a 'Mega Beast,' a coveted achievement that accumulates points. To maintain balance and prevent exploitation, users are limited to catching the same animal once every 12 hours.
+        Our final project for Momentum was the creation of an innovative animal collection weather app, named 'Is It Raining?' 
+
+        The project was a collaborative effort among myself and three fellow students, aiming to blend weather updates with creature collecting in a manner reminiscent of 'Pokemon Go.'
+        Designed with a target audience of users aged 10 and above, the app seamlessly integrates real-time weather data sourced from the OpenWeatherMap API. 
+
+        A distinctive feature of the app is its ability to generate a unique animal corresponding to the day's weather conditions. 
+        Each creature is programmed to appear in alignment with specific weather conditions, adding an element of surprise and engagement for users.
+        To build their collection, users are required to catch these creatures, a process initiated by creating an account. 
+        
+        The app allows anyone to view weather updates, but the delightful task of creature-catching and collection-building is reserved for registered users.
+        Catching the same animal multiple times unlocks the transformation into a 'Mega Beast,' a coveted achievement that accumulates points. 
+        To maintain balance and prevent exploitation, users are limited to catching the same animal once every 12 hours.
+
         What sets this project apart is the impressive array of 47 unique creature designs, all meticulously illustrated by yours truly.
         `,
-        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
+        challengesSolutions: `
+        While developing this app, a notable challenge emerged concerning the scoring system for collecting identical animals. 
+        Our team aimed to enable users to level up a creature after capturing it multiple times. 
+        However, to prevent users from exploiting the system by repeatedly catching the same creature, a careful balance needed to be struck. 
+        After thoughtful consideration, we agreed that implementing a 12-hour time restriction would be an effective solution. T
+        o achieve this, I coded a mechanism that calculates the time difference between the current moment and the user's last capture date.
+        `,
         technologiesUsed: "List of technologies used",
         designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
         codeSnippet: require('@/assets/codesnippets/weatherapp_code_1.png'),
