@@ -131,7 +131,9 @@ const projects = [
         I made it a priority to effectively communicate my endpoints, ensuring a cohesive understanding among all team members.
 
         `,
-        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
+        futurePlans: `
+        While there are no concrete future plans for the project, I fondly reflect on the experience, recognizing its valuable contribution to deepening my understanding of Django models. 
+        `,
     },
     {
         id: 4,
