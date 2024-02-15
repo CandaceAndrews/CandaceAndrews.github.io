@@ -99,7 +99,13 @@ const projects = [
 
         This dual structure ensures seamless integration and an intuitive user experience across both platforms.
         `,
-        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
+        challengesSolutions: `
+        As the backend engineer for this project, I encountered a notable challenge related to establishing a robust following and follower relationship. 
+        Initially, navigating the intricacies of mapping out this relationship for each user proved to be a bit perplexing. 
+        After careful consideration, I opted to streamline the process by introducing a 'Followship' model. 
+
+        This allowed me to create instances that seamlessly linked 'follower' and 'following' for each user, providing a more organized and intuitive structure.
+        `,
         technologiesUsed: ["React", "Django", "Python", "JavaScript", "JSON", "Postgresql", "HTML", "CSS"],
         designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
         codeSnippet: "Code snippets",
