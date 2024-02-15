@@ -107,9 +107,23 @@ const projects = [
         This allowed me to create instances that seamlessly linked 'follower' and 'following' for each user, providing a more organized and intuitive structure.
         `,
         technologiesUsed: ["React", "Django", "Python", "JavaScript", "JSON", "Postgresql", "HTML", "CSS"],
-        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
-        codeSnippet: "Code snippets",
-        codeExplain: "Explain code snippet",
+        designDecisions: `
+        The frontend team and I decided to go for a nostalgic 90’s vibe in the layout of this app. 
+        We've also incorporated elements to make it look and feel a bit like Instagram and Facebook.
+        `,
+        codeSnippet: require('@/assets/codesnippets/socialcards_code.png'),
+        codeExplain: `
+        Below is the code for my FollowshipAPIView model that inherits from Django REST Framework's APIView. 
+
+        The purpose of this class is to handle the logic for following and unfollowing a user. 
+        The class specifies that token authentication is required, and the user must be authenticated to perform these actions. 
+        The post method is responsible for creating a new Followship instance when a user initiates a follow action, while the delete method handles the removal of an existing Followship instance when a user decides to unfollow. 
+        The username parameter in both methods is used to identify the user being followed or unfollowed.
+         
+        It retrieves the current user (follower) from the request and fetches the user to be followed or unfollowed (following) using the username parameter. 
+        Then it either creates a new Followship instance or deletes an existing one accordingly. 
+        The class utilizes serializers to convert the Followship instances into JSON format for the API responses, returning the data along with the appropriate HTTP status codes.
+        `,
         projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
         futurePlans: "Mention any future plans or enhancements you have in mind for the project."
     },
