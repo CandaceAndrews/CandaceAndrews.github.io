@@ -87,12 +87,20 @@ const projects = [
         id: 3,
         projectName: "Social Card Team Project",
         thumbnailSource: require('@/assets/thumbnails/Social-Card-Team-Project.png'),
-        description: "Team project where backend and frontend collaborated to make a card site for users to create greeting cards, share them on a feed and follow other users.",
-        youtubeVideoId: "V4lDmFBwCgU",
+        description: "Team project where backend and frontend collaborated to make a social network site for users to create greeting cards, share them on a feed and follow other users.",
+        youtubeVideoId: "boBPyjZqPCM",
         githubRepo: "Social-Card-Team-Project",
-        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
+        projectOverview: `
+        This social e-cards application offers users the ability to register, craft personalized greeting cards, and connect with fellow users through following functionality. 
+
+        Users are presented with a curated display of cards, sorted chronologically from newest to oldest. 
+        They have access to three distinct collections: their own creations, cards from users they follow, and a comprehensive collection of all cards.
+        Functionally, this application operates as two separate entities—a robust back-end API developed with Django REST Framework and a dynamic front-end React application. 
+
+        This dual structure ensures seamless integration and an intuitive user experience across both platforms.
+        `,
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
-        technologiesUsed: "List of technologies used",
+        technologiesUsed: ["React", "Django", "Python", "JavaScript", "JSON", "Postgresql", "HTML", "CSS"],
         designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
         codeSnippet: "Code snippets",
         codeExplain: "Explain code snippet",
