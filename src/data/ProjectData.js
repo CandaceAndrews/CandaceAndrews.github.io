@@ -119,12 +119,18 @@ const projects = [
         The class specifies that token authentication is required, and the user must be authenticated to perform these actions. 
         The post method is responsible for creating a new Followship instance when a user initiates a follow action, while the delete method handles the removal of an existing Followship instance when a user decides to unfollow. 
         The username parameter in both methods is used to identify the user being followed or unfollowed.
-         
+
         It retrieves the current user (follower) from the request and fetches the user to be followed or unfollowed (following) using the username parameter. 
         Then it either creates a new Followship instance or deletes an existing one accordingly. 
         The class utilizes serializers to convert the Followship instances into JSON format for the API responses, returning the data along with the appropriate HTTP status codes.
         `,
-        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
+        projectImpact: `
+        This marked my first team coding project at Momentum, and I was genuinely thrilled to dive into collaborative work. 
+        
+        Despite initial nerves, especially as the sole backend developer in our four-person team, I believe I successfully fulfilled the team's requirements. 
+        I made it a priority to effectively communicate my endpoints, ensuring a cohesive understanding among all team members.
+
+        `,
         futurePlans: "Mention any future plans or enhancements you have in mind for the project."
     },
     {
