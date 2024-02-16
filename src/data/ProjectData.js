@@ -77,7 +77,15 @@ const projects = [
         description: "Trying to recreate the classic 'Primal Rage' arcade game in Pygame. So far I have Diablo and Sauron.",
         youtubeVideoId: "tLRHc_CkOuQ",
         githubRepo: "Dinosaur-Fighting-Game",
-        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
+        projectOverview: `
+        This project stemmed from my exploration of Pygame while following a tutorial on creating fighting games. 
+
+        As a newcomer to Pygame, the experience has been thoroughly enjoyable. 
+        The application I've started is a two-player fighting game where participants select which character they want and engage in battle. 
+        The life bar dynamically reflects the damage sustained and remaining life. 
+        
+        Drawing inspiration from the classic arcade game 'Primal Rage,' I crafted custom sprites featuring Diablo and Sauron.
+        `,
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
         technologiesUsed: "List of technologies used",
         designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
