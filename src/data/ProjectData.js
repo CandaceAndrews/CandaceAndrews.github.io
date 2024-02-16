@@ -65,7 +65,10 @@ const projects = [
         futurePlans: `
         At this moment, I haven't solidified any future plans for this project. 
         However, I've entertained the idea of leveraging the knowledge gained from this experience to embark on the creation of another app with a similar concept. 
-        `
+        `,
+        extraPhoto1: require('@/assets/extraPhoto/shark.gif'),
+        extraPhoto2: require('@/assets/extraPhoto/toucan.gif'),
+        extraPhoto3: require('@/assets/extraPhoto/trex.gif'),
     },
     {
         id: 2,

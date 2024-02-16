@@ -13,6 +13,10 @@
       <p>
           {{ project.projectOverview }}
       </p>
+    <!-- Extra Photos -->
+    <img class="extra-photos" :src="project.extraPhoto1">
+    <img class="extra-photos" :src="project.extraPhoto2">
+    <img class="extra-photos" :src="project.extraPhoto3">
     </section>
 
     <!-- Challenges and Solutions Section -->
