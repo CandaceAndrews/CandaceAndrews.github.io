@@ -100,8 +100,15 @@ const projects = [
         In terms of code design, a significant decision involved isolating the Fighter class from the Main.py file due to its extensive codebase. 
         This separation not only contributes to a cleaner and more readable project structure but also simplifies the Main.py file, as now I only need to import the Fighter class for integration.
         `,
-        codeSnippet: "Code snippets",
-        codeExplain: "Explain code snippet",
+        codeSnippet: require('@/assets/codesnippets/fightinggame_code.png'),
+        codeExplain: `
+        Below is some code from my Fighter class for the two characters.
+        This class is initialized with various attributes, such as position, size, animations, and health. 
+
+        The load_images method extracts images from a sprite sheet for different animations. 
+
+        The move method handles character movement, gravity, and keypress interactions, including walking, jumping, and initiating attacks. 
+        `,
         projectImpact: `
         This project was a great deal of fun for me. 
         Though this is my first time using Pygame and I still have much to learn, I've come to realize that Pygame offers a robust toolkit beyond my initial expectations. 
@@ -111,7 +118,7 @@ const projects = [
         `,
         futurePlans: `
         While this project remains a work in progress, it primarily served as my initiation into the realm of Pygame. 
-        
+
         I do have plans of revisiting it in the future to bring it to completion. 
         My envisioned enhancements include incorporating death animations, introducing a broader array of moves, and expanding the roster of characters. 
         The prospect of crafting a complete 'Primal Rage' fan game is an exciting aspiration that I look forward to delving into further down the road.
