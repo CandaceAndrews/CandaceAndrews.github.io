@@ -105,11 +105,17 @@ const projects = [
         projectImpact: `
         This project was a great deal of fun for me. 
         Though this is my first time using Pygame and I still have much to learn, I've come to realize that Pygame offers a robust toolkit beyond my initial expectations. 
-        
+
         Engaging in this project has not only been a learning experience with Pygame but has also immersed me in the intricate mindset required to make a game functional. 
         It's a thrilling journey, and I look forward to further exploring and honing my skills in game development.
         `,
-        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
+        futurePlans: `
+        While this project remains a work in progress, it primarily served as my initiation into the realm of Pygame. 
+        
+        I do have plans of revisiting it in the future to bring it to completion. 
+        My envisioned enhancements include incorporating death animations, introducing a broader array of moves, and expanding the roster of characters. 
+        The prospect of crafting a complete 'Primal Rage' fan game is an exciting aspiration that I look forward to delving into further down the road.
+        `,
     },
     {
         id: 3,
