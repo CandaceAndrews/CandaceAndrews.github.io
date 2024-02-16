@@ -156,9 +156,9 @@ padding: 50px;
 }
 
 .extra-photos {
-  height: 200px;
+  height: 170px;
   width: auto;
-  padding: 0px 5px 5px 10px;
+  padding: 5px 5px 5px 10px;
 }
 
 </style>
