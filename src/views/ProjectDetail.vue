@@ -155,4 +155,10 @@ padding: 50px;
   white-space: pre-line;
 }
 
+.extra-photos {
+  height: 200px;
+  width: auto;
+  padding: 0px 5px 5px 10px;
+}
+
 </style>
