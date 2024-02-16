@@ -92,8 +92,14 @@ const projects = [
         
         Tasks like efficiently extracting images from a sizable spritesheet initially presented difficulty, but through study and contemplation of the code, I gradually gained clarity and confidence in handling these complexities.
         `,
-        technologiesUsed: "List of technologies used",
-        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
+        technologiesUsed: ["Python", "Pygame"],
+        designDecisions: `
+        As mentioned earlier, I chose to feature classic characters from 'Primal Rage' for this project as a sort of fan tribute.
+        While contemplating whether to utilize the original game sprites, I ultimately opted for a more personal approach by creating my own sprite sheets through illustration. 
+        
+        In terms of code design, a significant decision involved isolating the Fighter class from the Main.py file due to its extensive codebase. 
+        This separation not only contributes to a cleaner and more readable project structure but also simplifies the Main.py file, as now I only need to import the Fighter class for integration.
+        `,
         codeSnippet: "Code snippets",
         codeExplain: "Explain code snippet",
         projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
