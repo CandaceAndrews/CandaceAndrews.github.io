@@ -102,7 +102,13 @@ const projects = [
         `,
         codeSnippet: "Code snippets",
         codeExplain: "Explain code snippet",
-        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
+        projectImpact: `
+        This project was a great deal of fun for me. 
+        Though this is my first time using Pygame and I still have much to learn, I've come to realize that Pygame offers a robust toolkit beyond my initial expectations. 
+        
+        Engaging in this project has not only been a learning experience with Pygame but has also immersed me in the intricate mindset required to make a game functional. 
+        It's a thrilling journey, and I look forward to further exploring and honing my skills in game development.
+        `,
         futurePlans: "Mention any future plans or enhancements you have in mind for the project."
     },
     {
