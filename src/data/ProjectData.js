@@ -83,10 +83,15 @@ const projects = [
         As a newcomer to Pygame, the experience has been thoroughly enjoyable. 
         The application I've started is a two-player fighting game where participants select which character they want and engage in battle. 
         The life bar dynamically reflects the damage sustained and remaining life. 
-        
+
         Drawing inspiration from the classic arcade game 'Primal Rage,' I crafted custom sprites featuring Diablo and Sauron.
         `,
-        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
+        challengesSolutions: `
+        I encountered a notable challenge while delving into this project, navigating the intricacies of Pygame, and mastering the intricacies of character movement and animations. 
+        To overcome this hurdle, my approach involved persistent code review and a deep understanding of the mechanics involved. 
+        
+        Tasks like efficiently extracting images from a sizable spritesheet initially presented difficulty, but through study and contemplation of the code, I gradually gained clarity and confidence in handling these complexities.
+        `,
         technologiesUsed: "List of technologies used",
         designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
         codeSnippet: "Code snippets",
