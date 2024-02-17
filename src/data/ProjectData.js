@@ -180,10 +180,16 @@ const projects = [
         id: 4,
         projectName: "Library API",
         thumbnailSource: require('@/assets/thumbnails/Library-API.png'),
-        description: "API application that lets users keep track of books, including important information like title, author, publication date, a genre, and a field that marks it as 'featured'.",
+        description: "API that lets users keep track of books, including important information like title, author, publication date, a genre, and a field that marks it as 'featured'.",
         youtubeVideoId: "ukgu9-KHiGg",
         githubRepo: "Library-API",
-        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
+        projectOverview: `
+        This API application allows users to organize their book collection, providing features such as listing all books, creating new entries with details like title, author, and publication date, and marking books as 'featured.' 
+        Users can manage their reading progress by categorizing books as 'want to read,' 'reading,' or 'read,' while also accessing a variety of search and retrieval functionalities based on title, author, and status. 
+
+        The platform supports private and public notes for each book, allowing users to record personal reflections or share insights with others. 
+        Administrators hold the additional capability to update or delete books, including toggling the 'featured' status, without affecting associated notes. 
+        `,
         challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
         technologiesUsed: "List of technologies used",
         designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
@@ -196,7 +202,7 @@ const projects = [
         id: 5,
         projectName: "Poke-API Project",
         thumbnailSource: require('@/assets/thumbnails/Poke-API-Project.png'),
-        description: "Pulls from the PokeAPI, Displays: Name, Id, Image, Attacks and Type, Stores the information in a local database.",
+        description: "Self project I did to learn SQL. Pulls from the PokeAPI to return information about a given",
         youtubeVideoId: "i2Y_WlzOLAI",
         githubRepo: "Poke-API-Project",
         projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
