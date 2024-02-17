@@ -197,8 +197,13 @@ const projects = [
         As I gradually grasped the concept of models as tables, a pivotal realization occurred, shedding light on the importance of organizing and linking information. 
         This newfound perspective not only facilitated further understanding of Django but also streamlined the identification of crucial data to be stored collectively and interconnected within the application.
         `,
-        technologiesUsed: "List of technologies used",
-        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
+        technologiesUsed: ["Django", "Python", "JSON", "Postgresql"],
+        designDecisions: `
+        In the design of this project, an approach was taken to create an organized and efficient Django application for book tracking. 
+        Customizing the User model and structuring models like Book, Author, Genre, Tracking, and Notes with proper relationships and constraints ensured a normalized database schema and data integrity. 
+        
+        I tried my best to adhere to Django best practices, combining functionality with a clean and readable codebase to provide a comprehensive solution for book tracking.
+        `,
         codeSnippet: "Code snippets",
         codeExplain: "Explain code snippet",
         projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
