@@ -207,12 +207,17 @@ const projects = [
         codeSnippet: require('@/assets/codesnippets/libraryAPI_code.png'),
         codeExplain: `
         Below is my code for my Tracking and Notes models.
-        
+
         Tracking for user-specific book status tracking, featuring options like 'Want To Read' and 'Read/Done’.
         Notes for storing user-generated notes associated with a book. 
         Both models establish relationships with the User and Book models using foreign keys and ensure uniqueness in the combination of user and book instances. 
         `,
-        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
+        projectImpact: `
+        This project marked a turning point in my Django journey, representing one of my early ventures into full-fledged Django development. 
+
+        Exploring features like model choices and implementing unique constraints for fields marked my introduction to advanced Django functionalities. 
+        Witnessing these concepts in action within the project played a crucial role in solidifying my understanding and application of backend development principles. 
+        `,
         futurePlans: "Mention any future plans or enhancements you have in mind for the project."
     },
     {
