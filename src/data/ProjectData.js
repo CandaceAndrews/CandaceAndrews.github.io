@@ -204,8 +204,14 @@ const projects = [
         
         I tried my best to adhere to Django best practices, combining functionality with a clean and readable codebase to provide a comprehensive solution for book tracking.
         `,
-        codeSnippet: "Code snippets",
-        codeExplain: "Explain code snippet",
+        codeSnippet: require('@/assets/codesnippets/libraryAPI_code.png'),
+        codeExplain: `
+        Below is my code for my Tracking and Notes models.
+        
+        Tracking for user-specific book status tracking, featuring options like 'Want To Read' and 'Read/Done’.
+        Notes for storing user-generated notes associated with a book. 
+        Both models establish relationships with the User and Book models using foreign keys and ensure uniqueness in the combination of user and book instances. 
+        `,
         projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
         futurePlans: "Mention any future plans or enhancements you have in mind for the project."
     },
