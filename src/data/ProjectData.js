@@ -190,7 +190,13 @@ const projects = [
         The platform supports private and public notes for each book, allowing users to record personal reflections or share insights with others. 
         Administrators hold the additional capability to update or delete books, including toggling the 'featured' status, without affecting associated notes. 
         `,
-        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
+        challengesSolutions: `
+        This marked my initial exploration into planning of models for my application, where I delved into the process of determining the types of models required and their functionalities. 
+        The early challenges I faced were rooted in my ongoing adjustment to Django and the perception of essential model structures. 
+        
+        As I gradually grasped the concept of models as tables, a pivotal realization occurred, shedding light on the importance of organizing and linking information. 
+        This newfound perspective not only facilitated further understanding of Django but also streamlined the identification of crucial data to be stored collectively and interconnected within the application.
+        `,
         technologiesUsed: "List of technologies used",
         designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
         codeSnippet: "Code snippets",
