@@ -218,7 +218,10 @@ const projects = [
         Exploring features like model choices and implementing unique constraints for fields marked my introduction to advanced Django functionalities. 
         Witnessing these concepts in action within the project played a crucial role in solidifying my understanding and application of backend development principles. 
         `,
-        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
+        futurePlans: `
+        I currently have no specific future plans for this project. 
+        Nevertheless, it served as a significant milestone in my journey of mastering Django, and the valuable methods and insights gained continue to shape my approach in subsequent projects.
+        `,
     },
     {
         id: 5,
