@@ -230,14 +230,45 @@ const projects = [
         description: "Self project I did to learn SQL. Pulls from the PokeAPI to return information about a given",
         youtubeVideoId: "i2Y_WlzOLAI",
         githubRepo: "Poke-API-Project",
-        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
-        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
-        technologiesUsed: "List of technologies used",
-        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
-        codeSnippet: "Code snippets",
-        codeExplain: "Explain code snippet",
-        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
-        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
+        projectOverview: `
+        This project utilizes Python's 'requests' library to fetch data from the PokeAPI. 
+        It extracts and displays essential information such as the Pokemon's Name, Id, Image, Attacks, and Type. 
+
+        To optimize efficiency, the system checks if the Pokemon is already stored in a SQLite database; if not, it saves the information locally. 
+        This approach ensures that only new Pokemon are retrieved from the API, while previously fetched Pokemon are efficiently retrieved from the local database.
+        `,
+        challengesSolutions: 
+        `
+        This was my first SQL project, I viewed it as an opportunity to deepen my understanding of SQL and its functionality. 
+        While navigating the challenges posed by my initial unfamiliarity with SQL, I embraced a learning-as-I-go approach throughout the application's development. 
+        With each new function I implemented, I noticed a tangible improvement in my comfort level with crafting SQL queries and effectively utilizing database storage.
+        `,
+        technologiesUsed: ["Python", "SQL", "SQLite3", "JSON"],
+        designDecisions: 
+        `
+        The app is organized with its primary components encapsulated within dedicated functions.
+        This deliberate structuring not only enhances clarity but also contributes to the overall neatness of the code. 
+
+        Towards the bottom, the main function orchestrates the app's execution by seamlessly calling upon these well-organized functions.
+        `,
+        codeSnippet: require('@/assets/codesnippets/pokemonAPI_code.png'),
+        codeExplain: `
+        Below is code from my main function that serves as the logical flow of the app and interacting with the PokeAPI.
+
+        It establishes a connection to my SQLite database (pokedex.db).
+        Retrieves user input for a Pokémon, and uses various functions to fetch data from the PokeAPI, process information, and populate tables in the database. 
+        Then it tests the database by printing specific information about the entered Pokémon.
+        `,
+        projectImpact: 
+        `
+        While this project posed a significant challenge, its impact on my growth and learning has been profound. 
+        It instilled in me the attitude to persevere and embrace unfamiliar concepts and logic. 
+        `,
+        futurePlans:
+        `
+        While there are no immediate future plans for this project, it has successfully served its purpose by teaching me SQL and enabling data retrieval and storage from the PokeAPI. 
+        The experience has sparked an interest in pursuing similar projects, and I'm considering the possibility of creating another app in the future—perhaps something along the lines of a Pokedex application.
+        `,
     },
     {
         id: 6,
