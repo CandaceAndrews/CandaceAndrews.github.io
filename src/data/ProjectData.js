@@ -277,14 +277,47 @@ const projects = [
         description: "App that allows the user to keep track of incompleted and completed tasks.",
         youtubeVideoId: "aQKLEIFKCsg",
         githubRepo: "Task-Manager-Application",
-        projectOverview: "Provide a brief overview of the project, including its purpose, goals, and key features.",
-        challengesSolutions: "Share any challenges or problems you encountered during the development process and how you overcame them.",
-        technologiesUsed: "List of technologies used",
-        designDecisions: "Discuss the design decisions you made for the project. Explain your thought process behind the user interface, user experience, color scheme, etc.",
-        codeSnippet: "Code snippets",
-        codeExplain: "Explain code snippet",
-        projectImpact: "Share any impact the project has had, including user feedback, download statistics, or recognition received.",
-        futurePlans: "Mention any future plans or enhancements you have in mind for the project."
+        projectOverview: 
+        `
+        This application provides users with a convenient tool for task management. 
+
+        Users can effortlessly add, delete, and mark tasks as either completed or incompleted.
+        It helps to streamline the process of staying organized and on top of their to-do list.
+        `,
+        challengesSolutions: 
+        `
+        This project served as a valuable learning experience as I followed an online tutorial to enhance my familiarity with React. 
+
+        Venturing into React for the first time, I aimed to deepen my understanding by integrating it with Django. 
+        The primary challenge was navigating through React's initial complexity, striving to grasp its functionalities while ensuring seamless integration with Django.
+        `,
+        technologiesUsed: ["Python", "JavaScript", "Django", "React", "JSON"],
+        designDecisions: 
+        `
+        Since this app was created by following a tutorial, the design decisions were not mine to make. 
+        Nevertheless, I'd like to highlight the app's simple yet effective design.
+        The straightforward and user-friendly layout was particularly enjoyable, prompting me to take notes for future reference in my own design endeavors.
+        `,
+        codeSnippet: require('@/assets/codesnippets/taskManager_code_2.png'),
+        codeExplain: 
+        `
+        Below is the CustomModal component for React.
+
+        The CustomModal serves as a modal window for editing task items. 
+        It utilizes the reactstrap library for styling and includes input fields for task title and description, along with a checkbox to indicate task completion status. 
+        The component handles changes in input values through the handleChange method, ensuring that the state is updated accordingly. 
+        The modal is triggered to open through the isOpen property, and the onSave function is called to save the changes when the "Save" button is clicked.
+        `,
+        projectImpact: 
+        `
+        It served as my introduction to React, and I plan to apply the knowledge gained here to enhance other projects in the future. 
+        Exploring React not only provided insights into its functionalities but also proved beneficial when I delved into Phaser 3 and Vue. 
+        The experience with React served as a valuable foundation, contributing to a smoother learning curve as I ventured into other frameworks.
+        `,
+        futurePlans: 
+        `
+        I currently don't have specific future plans for this app. 
+        `,
     },
 ];
 
